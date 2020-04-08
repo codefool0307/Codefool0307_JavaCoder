@@ -3,7 +3,8 @@
 # 一、Java基础综述
 
 共分为四部分
-$$
+
+
 \begin{cases}
 java基础{}\begin{cases}
            基本数据类型\\自动装箱拆箱\\关键字\\集合与数组\\IO及NIO\\反射\\动态代理\\序列化与反序列化            \\注解\\泛型\\单元测试\\正则表达式\\API与SPI\\异常\\流\\编码方式\\语法糖\\函数式编程\\
@@ -16,5 +17,16 @@ java基础{}\begin{cases}
 \\
 JVM\\
 \end{cases}
+
+
+
 $$
-​    
+f(x)=\left\{
+\begin{aligned}
+x & = & \cos(t) \\
+y & = & \sin(t) \\
+z & = & \frac xy
+\end{aligned}
+\right.
+$$
+
