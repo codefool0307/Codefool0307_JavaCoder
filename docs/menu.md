@@ -2,7 +2,7 @@
 
     * java基础
     
-       * [数据类型](/1.basics/1.java-basic/shujuleixing.md)
+       * 数据类型(/1.basics/1.java-basic/shujuleixing.md)
   
        * 自动拆箱装箱
         
