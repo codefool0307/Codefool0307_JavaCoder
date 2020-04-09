@@ -1,8 +1,8 @@
-* 基础篇
+* java基础内容
 
-    * 面向对象
+    * java基础
     
-        * 什么是面向对象
+        * 数据类型
         
             * [面向对象与面向过程](/basics/object-oriented/object-oriented-vs-procedure-oriented.md)
         
