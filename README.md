@@ -1,5 +1,14 @@
 # 1. **Java**工程师必备技能
-<!-- TOC -->autoauto- [1. **Java**工程师必备技能](#1-java工程师必备技能)auto- [2. 一、Java基础综述](#2-一java基础综述)auto    - [2.1. java基础](#21-java基础)auto    - [2.2. 并发](#22-并发)auto    - [2.3. JVM](#23-jvm)auto- [3. 网络](#3-网络)autoauto<!-- /TOC -->
+<!-- TOC -->
+
+- [1. **Java**工程师必备技能](#1-java%e5%b7%a5%e7%a8%8b%e5%b8%88%e5%bf%85%e5%a4%87%e6%8a%80%e8%83%bd)
+- [2. 一、Java基础综述](#2-%e4%b8%80java%e5%9f%ba%e7%a1%80%e7%bb%bc%e8%bf%b0)
+  - [2.1. java基础](#21-java%e5%9f%ba%e7%a1%80)
+  - [2.2. 并发](#22-%e5%b9%b6%e5%8f%91)
+  - [2.3. JVM](#23-jvm)
+- [3. 网络](#3-%e7%bd%91%e7%bb%9c)
+
+<!-- /TOC -->
 
 # 2. 一、Java基础综述
 ## 2.1. java基础
