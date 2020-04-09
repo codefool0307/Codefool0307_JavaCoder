@@ -1,49 +1,45 @@
-## To Be Top Javaer  -  Java工程师成神之路
+# 1. **Java**工程师必备技能
 
-![](https://img.shields.io/badge/version-v2.0.0-green.svg) ![](https://img.shields.io/badge/author-Hollis-yellow.svg) ![](https://img.shields.io/badge/license-GPL-blue.svg)
+<!-- TOC -->
 
+- [1. **Java**工程师必备技能](#1-java%e5%b7%a5%e7%a8%8b%e5%b8%88%e5%bf%85%e5%a4%87%e6%8a%80%e8%83%bd)
+- [2. 一、Java基础综述](#2-%e4%b8%80java%e5%9f%ba%e7%a1%80%e7%bb%bc%e8%bf%b0)
+  - [2.1. java基础](#21-java%e5%9f%ba%e7%a1%80)
+  - [2.2. 并发](#22-%e5%b9%b6%e5%8f%91)
+  - [2.3. JVM](#23-jvm)
+- [3. 网络](#3-%e7%bd%91%e7%bb%9c)
 
-| 主要版本 | 更新时间       | 备注             |
-| ---- | ---------- | -------------- |
-| v3.0 | 2020-03-29 | 知识体系完善<br>通过GitHub Page搭建，便于阅读|
-| v2.0 | 2019-02-19 | 结构调整，更适合从入门到精通；<br>进一步完善知识体系； <br>新技术补充；|
-| v1.1 | 2018-03-12 | 增加新技术知识、完善知识体系 |
-| v1.0 | 2015-08-01 | 首次发布           |
+<!-- /TOC -->
 
-目前正在更新中... 
+# 2. 一、Java基础综述
 
-欢迎大家参与共建~
+## 2.1. java基础
 
-### 关于作者
+- [基本数据类型]()<br>
+- [自动装箱拆箱]()<br>
+- [关键字]()<br>
+- [集合与数组]()<br>
+- [IO及NIO]()<br>
+- [反射]()<br>
+- [动态代理]()<br>
+- [序列化与反序列化]()<br>
+- [注解]()<br>
+- [泛型]()<br>
+- [单元测试]()<br>
+- [正则表达式]()<br>
+- [API与SPI]()<br>
+- [异常]()<br>
+- [流]()<br>
+- [编码方式]()<br>
+- [语法糖]()<br>
+- [函数式编程]()<br>
+- [方法引用]()<br>
+- [网络编程]()<br>
+- [类]()<br>
 
-Hollis，阿里巴巴技术专家，51CTO专栏作家，CSDN博客专家，掘金优秀作者，《程序员的三门课》联合作者，《Java工程师成神之路》系列文章作者；热衷于分享计算机编程相关技术，博文全网阅读量上千万。
+## 2.2. 并发
 
+## 2.3. JVM 
 
-### 开源协议
+# 3. 网络
 
-本着互联网的开放精神，本项目采用开放的[GPL]协议进行许可。
-
-
-### 参与共建
-
-如果您对本项目中的内容有建议或者意见
-
-如果你对本项目中未完成的章节感兴趣
-
-欢迎提出专业方面的修改建议及供稿，供稿只接受原创
-
-请直接在[GitHub](https://github.com/hollischuang/toBeTopJavaer)上以issue或者PR的形式提出
-
-如果本项目中的内容侵犯了您的任何权益，欢迎通过邮箱(hollischuang@gmail)与我联系
-
-### 在线阅读地址
-
-GitHub Pages 完整阅读：[进入](https://hollischuang.github.io/toBeTopJavaer/)
-
-Gitee Pages 完整阅读：[进入](http://hollischuang.gitee.io/tobetopjavaer) (国内访问速度较快)
-
-### 联系我们
-
-欢迎关注作者的公众号，可以直接后台留言。
-
-![](contact/wechat-hollis.jpg)
