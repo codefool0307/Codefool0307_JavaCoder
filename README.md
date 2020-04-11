@@ -23,7 +23,7 @@
   - [关键字]()<br>
   - [集合与数组]()<br>
   - [IO及NIO]()<br>
-  - [反射]((/docs/1.basics/1.java-basic/6-reflect.md)<br>
+  - [反射](/docs/1.basics/1.java-basic/6-reflect.md)<br>
   - [动态代理]()<br>
   - [序列化与反序列化]()<br>
   - [注解]()<br>
