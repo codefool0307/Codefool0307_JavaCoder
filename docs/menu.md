@@ -1,50 +1,51 @@
-# 第一部分
+<h2><b>I</b></h2>
+
 |            |  &#8194; &#8194;  &#8194; 内 &#8194; 容 &#8194; 部 &#8194; 分  &#8194;  &#8194; |数据结构与算法知识点| github内容 | CSDN内容 | docsify博客 | 程序上传 |
 |:---------:|:----------:|:--------:|:---------:|:--------:|:---------:|:--------:|
 | 2020年4月11日 | ~~数据类型、自动拆装箱、反射~~               | 排序算法         | :pencil2:       |  :wrench:      | :wrench:     |:wrench:
-| 2020年4月12日 | 关键字、集合/数组、源码分析                  |   | :wrench: | :wrench: | :wrench: | :wrench: |
-| 2020年4月13日 | IO及NIO             |   | :wrench: | :wrench: | :wrench: | :wrench: |
-| 2020年4月14日 | 动态代理、序列化、注解        |   | :wrench: | :wrench: | :wrench: | :wrench: |
-| 2020年4月15日 | 泛型、单元测试            |   | :wrench: | :wrench: | :wrench: | :wrench: |
-| 2020年4月16日 | 正则表达式、API&SPI      |   | :wrench: | :wrench: | :wrench: | :wrench: |
-| 2020年4月17日 | 异常、流               |   | :wrench: | :wrench: | :wrench: | :wrench: |
-| 2020年4月18日 | 编码方式、语法糖、网络编程      |   | :wrench: | :wrench: | :wrench: | :wrench: |
-| 2020年4月19日 | java新特性、函数式编程、方法引用 |   | :wrench: | :wrench: | :wrench: | :wrench: |
-| 2020年4月20日 | 常用类                |   | :wrench: | :wrench: | :wrench: | :wrench: |
-| 2020年4月21日 | JUC、并发\-1          |   | :wrench: | :wrench: | :wrench: | :wrench: |
-| 2020年4月22日 | 并发\-2              |   | :wrench: | :wrench: | :wrench: | :wrench: |
-| 2020年4月23日 | JVM\-1             |   | :wrench: | :wrench: | :wrench: | :wrench: |
-| 2020年4月24日 | JVM\-2             |   | :wrench: | :wrench: | :wrench: | :wrench: |
-| 2020年4月25日 | TCP\-1             |   | :wrench: | :wrench: | :wrench: | :wrench: |
-| 2020年4月26日 | TCP\-2             |   | :wrench: | :wrench: | :wrench: | :wrench: |
-| 2020年4月27日 | TCP\-3             |   | :wrench: | :wrench: | :wrench: | :wrench: |
-| 2020年4月28日 | 数据库MySQL\-1        |   | :wrench: | :wrench: | :wrench: | :wrench: |
-| 2020年4月29日 | 数据库MySQL\-2        |   | :wrench: | :wrench: | :wrench: | :wrench: |
-| 2020年4月30日 | 数据库MySQL\-3        |   | :wrench: | :wrench: | :wrench: | :wrench: |
-| 2020年5月1日  | 数据库MySQL\-4        |   | :wrench: | :wrench: | :wrench: | :wrench: |
-| 2020年5月2日  | redis\-1           |   | :wrench: | :wrench: | :wrench: | :wrench: |
-| 2020年5月3日  | redis\-2           |   | :wrench: | :wrench: | :wrench: | :wrench: |
-| 2020年5月4日  | JDBC\-1            |   | :wrench: | :wrench: | :wrench: | :wrench: |
-| 2020年5月5日  | JDBC\-2            |   | :wrench: | :wrench: | :wrench: | :wrench: |
-| 2020年5月6日  | Spring\-1          |   | :wrench: | :wrench: | :wrench: | :wrench: |
-| 2020年5月7日  | Spring\-2          |   | :wrench: | :wrench: | :wrench: | :wrench: |
-| 2020年5月8日  | SpringMVC\-1       |   | :wrench: | :wrench: | :wrench: | :wrench: |
-| 2020年5月9日  | SpringMVC\-2       |   | :wrench: | :wrench: | :wrench: | :wrench: |
-| 2020年5月10日 | MyBatis\-1         |   | :wrench: | :wrench: | :wrench: | :wrench: |
-| 2020年5月11日 | MyBatis\-2         |   | :wrench: | :wrench: | :wrench: | :wrench: |
-| 2020年5月12日 | MyBatis\-3         |   | :wrench: | :wrench: | :wrench: | :wrench: |
-| 2020年5月13日 | SpringBoot\-1      |   | :wrench: | :wrench: | :wrench: | :wrench: |
-| 2020年5月14日 | SpringBoot\-2      |   | :wrench: | :wrench: | :wrench: | :wrench: |
-| 2020年5月15日 | SpringBoot\-3      |   | :wrench: | :wrench: | :wrench: | :wrench: |
-| 2020年5月16日 | Spring注解\-1        |   | :wrench: | :wrench: | :wrench: | :wrench: |
-| 2020年5月17日 | Spring注解\-2        |   | :wrench: | :wrench: | :wrench: | :wrench: |
-| 2020年5月18日 | 项目二众筹\+maven       |   | :wrench: | :wrench: | :wrench: | :wrench: |
-| 2020年5月19日 | 项目二众筹\+ngnix       |   | :wrench: | :wrench: | :wrench: | :wrench: |
-| 2020年5月20日 |                      |          |        |           |      |
-| 2020年5月21日 |                      |          |        |           |      |
-| 2020年5月22日 |                      |          |        |           |      |
-| 2020年5月23日 |                      |          |        |           |      |
-| 2020年5月24日 |                      |          |        |           |      |
+| 2020年4月12日 | 关键字、集合/数组、源码分析                  | 1-6  | :wrench: | :wrench: | :wrench: | :wrench: |
+| 2020年4月13日 | IO及NIO                                     | 7-9  | :wrench: | :wrench: | :wrench: | :wrench: |
+| 2020年4月14日 | 动态代理、序列化、注解                        | 10-12  | :wrench: | :wrench: | :wrench: | :wrench: |
+| 2020年4月15日 | 泛型、单元测试                                | 13-16  | :wrench: | :wrench: | :wrench: | :wrench: |
+| 2020年4月16日 | 正则表达式、API&SPI                           | 17-19  | :wrench: | :wrench: | :wrench: | :wrench: |
+| 2020年4月17日 | 异常、流                                      | 20-22  | :wrench: | :wrench: | :wrench: | :wrench: |
+| 2020年4月18日 | 编码方式、语法糖、网络编程                        | 23-25  | :wrench: | :wrench: | :wrench: | :wrench: |
+| 2020年4月19日 | java新特性、函数式编程、方法引用                  | 26-28  | :wrench: | :wrench: | :wrench: | :wrench: |
+| 2020年4月20日 | 常用类                                            | 29-31  | :wrench: | :wrench: | :wrench: | :wrench: |
+| 2020年4月21日 | JUC、并发\-1                                      | 32-34  | :wrench: | :wrench: | :wrench: | :wrench: |
+| 2020年4月22日 | 并发\-2                                           | 35-37  | :wrench: | :wrench: | :wrench: | :wrench: |
+| 2020年4月23日 | JVM\-1             | 38-40  | :wrench: | :wrench: | :wrench: | :wrench: |
+| 2020年4月24日 | JVM\-2             | 41-43  | :wrench: | :wrench: | :wrench: | :wrench: |
+| 2020年4月25日 | TCP\-1             | 44-46  | :wrench: | :wrench: | :wrench: | :wrench: |
+| 2020年4月26日 | TCP\-2             | 47-49  | :wrench: | :wrench: | :wrench: | :wrench: |
+| 2020年4月27日 | TCP\-3             | 50-52  | :wrench: | :wrench: | :wrench: | :wrench: |
+| 2020年4月28日 | 数据库MySQL\-1        | 53-55  | :wrench: | :wrench: | :wrench: | :wrench: |
+| 2020年4月29日 | 数据库MySQL\-2        | 56-58  | :wrench: | :wrench: | :wrench: | :wrench: |
+| 2020年4月30日 | 数据库MySQL\-3        | 59-61  | :wrench: | :wrench: | :wrench: | :wrench: |
+| 2020年5月1日  | 数据库MySQL\-4        | 62-64  | :wrench: | :wrench: | :wrench: | :wrench: |
+| 2020年5月2日  | redis\-1           | 65-67  | :wrench: | :wrench: | :wrench: | :wrench: |
+| 2020年5月3日  | redis\-2           | 68-70  | :wrench: | :wrench: | :wrench: | :wrench: |
+| 2020年5月4日  | JDBC\-1            | 71-73  | :wrench: | :wrench: | :wrench: | :wrench: |
+| 2020年5月5日  | JDBC\-2            | 74-76  | :wrench: | :wrench: | :wrench: | :wrench: |
+| 2020年5月6日  | Spring\-1          | 77-79  | :wrench: | :wrench: | :wrench: | :wrench: |
+| 2020年5月7日  | Spring\-2          | 80-82  | :wrench: | :wrench: | :wrench: | :wrench: |
+| 2020年5月8日  | SpringMVC\-1       | 83-85  | :wrench: | :wrench: | :wrench: | :wrench: |
+| 2020年5月9日  | SpringMVC\-2       | 86-88  | :wrench: | :wrench: | :wrench: | :wrench: |
+| 2020年5月10日 | MyBatis\-1         | 89-91  | :wrench: | :wrench: | :wrench: | :wrench: |
+| 2020年5月11日 | MyBatis\-2         | 92-94  | :wrench: | :wrench: | :wrench: | :wrench: |
+| 2020年5月12日 | MyBatis\-3         | 95-97  | :wrench: | :wrench: | :wrench: | :wrench: |
+| 2020年5月13日 | SpringBoot\-1      | 98-100  | :wrench: | :wrench: | :wrench: | :wrench: |
+| 2020年5月14日 | SpringBoot\-2      | 101-103  | :wrench: | :wrench: | :wrench: | :wrench: |
+| 2020年5月15日 | SpringBoot\-3      | 104-106  | :wrench: | :wrench: | :wrench: | :wrench: |
+| 2020年5月16日 | Spring注解\-1        | 107-109  | :wrench: | :wrench: | :wrench: | :wrench: |
+| 2020年5月17日 | Spring注解\-2        | 110-112  | :wrench: | :wrench: | :wrench: | :wrench: |
+| 2020年5月18日 | 项目二众筹\+maven     | 113-115  | :wrench: | :wrench: | :wrench: | :wrench: |
+| 2020年5月19日 | 项目二众筹\+ngnix     | 116-118  | :wrench: | :wrench: | :wrench: | :wrench: |
+| 2020年5月20日 |                      | 119-121         |        |           |      |
+| 2020年5月21日 |                      | 122-124         |        |           |      |
+| 2020年5月22日 |                      | 125-127         |        |           |      |
+| 2020年5月23日 |                      | 128-130        |        |           |      |
+| 2020年5月24日 |                      | 131-132        |        |           |      |
 | 2020年5月25日 |                      |          |        |           |      |
 | 2020年5月26日 |                      |          |        |           |      |
 | 2020年5月27日 |                      |          |        |           |      |
@@ -118,6 +119,170 @@
 
 
 
-# 第二部分
+<h2><b>II</b></h2>
+
 |  &#8194; &#8194; 类型 &#8194;  &#8194;  | &#8194;  题号 &#8194;  | &#8194;  左程云 &#8194;  |  &#8194; 剑指offer &#8194;  | &#8194;  leetcode &#8194;  |
 |:----:|:----------------:|:----:|:----:|:----:|
+|      |                  |      |       |      |
+|      |                  |      |       |      |
+|      |                  |      |       |      |
+|      |                  |      |       |      |
+|      |                  |      |       |      |
+|      |                  |      |       |      |
+|      |                  |      |       |      |
+|      |                  |      |       |      |
+|      |                  |      |       |      |
+|      |                  |      |       |      |
+|      |                  |      |       |      |
+|      |                  |      |       |      |
+|      |                  |      |       |      |
+|      |                  |      |       |      |
+|      |                  |      |       |      |
+|      |                  |      |       |      |
+|      |                  |      |       |      |
+|      |                  |      |       |      |
+|      |                  |      |       |      |
+|      |                  |      |       |      |
+
+
+
+
+
+
+<h2><b>III</b></h2>
+
+| 标号  | 程序                                                              | 完成       |
+|:-----:|-----|:-----:|
+| 1   | 时间复杂度和空间复杂度                                                     | :wrench: |
+| 2   | 选择排序                                                            | :wrench: |
+| 3   | 冒泡排序                                                            | :wrench: |
+| 4   | 插入排序                                                            | :wrench: |
+| 5   | 时间复杂度分析                                                         | :wrench: |
+| 6   | 二分法的使用和复杂度分析                                                    | :wrench: |
+| 7   | 一道时间复杂度很低的利用异或运算解决的问题                                           | :wrench: |
+| 8   | 常见时间复杂度的比较                                                      | :wrench: |
+| 9   | 详解递归函数与常见递归函数的复杂度估算\(master公式\)                                 | :wrench: |
+| 10  | 详解对数器的使用                                                        | :wrench: |
+| 11  | 归并排序详解                                                          | :wrench: |
+| 12  | 快速排序详解                                                          | :wrench: |
+| 13  | 堆结构和堆排序详解                                                       | :wrench: |
+| 14  | 详解桶排序以及排序内容大总结                                                  | :wrench: |
+| 15  | 桶排序思想下的具体排序：计数排序、基数排序                                           | :wrench: |
+| 16  | 详解比较器                                                           | :wrench: |
+| 17  | 排序内容汇总与常见坑总结                                                    | :wrench: |
+| 18  | 工程上对排序的改进                                                       | :wrench: |
+| 19  | 链表问题对于笔试和面试阶段的解题方法论                                             | :wrench: |
+| 20  | 常见的链表面试题目                                                       | :wrench: |
+| 21  | 利用快慢指针                                                          | :wrench: |
+| 22  | 哈希表和有序表在使用层次上的简单介绍                                              | :wrench: |
+| 23  | 详解递归函数完成二叉树的三种遍历                                                | :wrench: |
+| 24  | 详解非递归函数完成二叉树的三种遍历                                               | :wrench: |
+| 25  | 详解二叉树的序列化和反序列化（深度优先与宽度优先遍历）                                     | :wrench: |
+| 26  | 折纸问题                                                            | :wrench: |
+| 27  | 判断搜索二叉树                                                         | :wrench: |
+| 28  | 判断完全二叉树                                                         | :wrench: |
+| 29  | 判断平衡二叉树                                                         | :wrench: |
+| 30  | 二叉树节点的前驱节点与后继节点                                                 | :wrench: |
+| 31  | 图结构的表示方法                                                        | :wrench: |
+| 32  | 图的深度优先遍历与宽度优先遍历                                                 | :wrench: |
+| 33  | 拓扑排序问题                                                          | :wrench: |
+| 34  | 最小生成树问题                                                         | :wrench: |
+| 35  | 单源最短路径问题                                                        | :wrench: |
+| 36  | 详解前缀树                                                           | :wrench: |
+| 37  | 介绍贪心算法及其相关题目                                                    | :wrench: |
+| 38  | 在面试中如何快速的尝试出贪心策略                                                | :wrench: |
+| 39  | 常见的递归问题                                                         | :wrench: |
+| 40  | 几种常见的尝试类型                                                       | :wrench: |
+| 41  | 哈希函数与哈希表                                                        | :wrench: |
+| 42  | 位图与布隆过滤器详解                                                      | :wrench: |
+| 43  | 一致性哈希结构                                                         | :wrench: |
+| 44  | 详解有序表（红黑树、跳表、sb树、avl树                                           | :wrench: |
+| 45  | 详解并查集结构的应用（岛问题）                                                 | :wrench: |
+| 46  | KMP算法                                                           | :wrench: |
+| 47  | Manacher算法                                                      | :wrench: |
+| 48  | 滑动窗口的最大值与最小值更新结构                                                | :wrench: |
+| 49  | 单调栈结构                                                           | :wrench: |
+| 50  | 二叉树的morris遍历                                                    | :wrench: |
+| 51  | 树形dp解题套路                                                        | :wrench: |
+| 52  | 大数据题目与空间限制题目常见解法                                                | :wrench: |
+| 53  | 位运算常见题目                                                         | :wrench: |
+| 54  | 从暴力递归到动态规划（上）                                                   | :wrench: |
+| 55  | 从暴力递归到动态规划（下）与社会嗑                                               | :wrench: |
+| 56  | 定长的绳子覆盖数轴上最多多少点                                                 | :wrench: |
+| 57  | 捆绑交易恰好购买苹果问题                                                    | :wrench: |
+| 58  | 4^x次幂吃草问题                                                       | :wrench: |
+| 59  | 正方形01染色                                                         | :wrench: |
+| 60  | 01矩阵输出边框全是1的最大正方形的边长长度                                          | :wrench: |
+| 61  | 已知区间等概函数，设计新区间等概函数                                              | :wrench: |
+| 62  | 限制最大值的子数组                                                       | :wrench: |
+| 63  | 可以转换的不同字符串的个数                                                   | :wrench: |
+| 64  | 括号序列问题                                                          | :wrench: |
+| 65  | 树的路径最大权值和问题                                                     | :wrench: |
+| 66  | 给定二叉树节点数求二叉树结构方案                                                | :wrench: |
+| 67  | 机器人抓物品                                                          | :wrench: |
+| 68  | 矩阵旋转90°                                                         | :wrench: |
+| 69  | 有序二维数组找数是否在该数组中                                                 | :wrench: |
+| 70  | 数组中找划分的最大值                                                      | :wrench: |
+| 71  | 容器能装多少水                                                         | :wrench: |
+| 72  | 地形能装多少水                                                         | :wrench: |
+| 73  | 牛牛新标准算报酬                                                        | :wrench: |
+| 74  | 判断字符串是否为旋转词                                                     | :wrench: |
+| 75  | 牛牛的春游                                                           | :wrench: |
+| 76  | 二维数组最小路径和                                                       | :wrench: |
+| 77  | 最长公共子序列                                                         | :wrench: |
+| 78  | 最长公共子串                                                          | :wrench: |
+| 79  | 斐波那契数列问题O\(logN\)的解法及其扩展                                        | :wrench: |
+| 80  | 所有长度为N的字符串中达标字符串的数量                                             | :wrench: |
+| 81  | 出现次数最多的前K个字符串                                                   | :wrench: |
+| 82  | TopKRecord结构                                                    | :wrench: |
+| 83  | 输出路径中蕴含的目录结构                                                    | :wrench: |
+| 84  | 二叉树转化为有序双向链表                                                    | :wrench: |
+| 85  | 找到一棵二叉树中的最大搜索二叉子树                                               | :wrench: |
+| 86  | 给定中序和先序输出后序遍历                                                   | :wrench: |
+| 87  | 安置路灯所需最少路灯数                                                     | :wrench: |
+| 88  | 子数组最大累加和                                                        | :wrench: |
+| 89  | 整型矩阵子矩阵最大累加和                                                    | :wrench: |
+| 90  | 字符串互换最小代价                                                       | :wrench: |
+| 91  | 最长递增子序列问题                                                       | :wrench: |
+| 92  | 求完全二叉树节点的个数                                                     | :wrench: |
+| 93  | 最大子数组异或和                                                        | :wrench: |
+| 94  | 字符串的组合方式                                                        | :wrench: |
+| 95  | 字符串中没有重复字符子串中最长的长度                                              | :wrench: |
+| 96  | 删除字符串中字符使得每种字符只保留一个，并让字典序最小                                     | :wrench: |
+| 97  | 字符串最短的变换路径                                                      | :wrench: |
+| 98  | 未排序数组求排序后相邻两数最大差值ON                                             | :wrench: |
+| 99  | 不重叠的非空区间数字的异或和等于0的数量                                            | :wrench: |
+| 100 | 两个有序数组找k大                                                       | :wrench: |
+| 101 | 公司招聘 约瑟夫环                                                       | :wrench: |
+| 102 | 给定大楼返回轮廓线数组                                                     | :wrench: |
+| 103 | 正值数组求所有的子数组中累加和等于k的最长子数组长度                                      | :wrench: |
+| 104 | 无限制数组所有的子数组中累加和等于k的最长子数组长度                                      | :wrench: |
+| 105 | 无限制数组所有的子数组中累加和小于等于k的最长子数组长度                                    | :wrench: |
+| 106 | 拿铜板游戏 博弈论                                                       | :wrench: |
+| 107 | 树上的最大路径和                                                        | :wrench: |
+| 108 | 蛇形数组                                                            | :wrench: |
+| 109 | 公式计算                                                            | :wrench: |
+| 110 | 咖啡机冲咖啡                                                          | :wrench: |
+| 111 | 乘客过河                                                            | :wrench: |
+| 112 | 最长的回文子序列                                                        | :wrench: |
+| 113 | 加字符使得串变成回文                                                      | :wrench: |
+| 114 | 字符串回文子串的最小分割数                                                   | :wrench: |
+| 115 | 删成回文串的方案数                                                       | :wrench: |
+| 116 | 最小的第k个数                                                         | :wrench: |
+| 117 | 一个数拆分方案数                                                        | :wrench: |
+| 118 | 有k个逆序对的排列数 dp                                                   | :wrench: |
+| 119 | 给定二叉树头结点，返回最大的且符合搜索二叉树条件的最大拓扑结构的大小                              | :wrench: |
+| 120 | 把数组\{L1,L2,\.\.,Ln,R1,R2,\.\.,Rn\}调整为\{R1,L1,R2,L2,\.\.,Rn,Ln\} | :wrench: |
+| 121 | 项目分配问题                                                          | :wrench: |
+| 122 | 二叉树寻找错误结点                                                       | :wrench: |
+| 123 | 山峰相见问题                                                          | :wrench: |
+| 124 | 矩形重叠 二维前缀和                                                      | :wrench: |
+| 125 | 通配符字符串匹配                                                        | :wrench: |
+| 126 | leetcode freedom\-trail                                         | :wrench: |
+| 127 | 打气球得最大分数                                                        | :wrench: |
+| 128 | 汉诺塔问题                                                           | :wrench: |
+| 129 | 合并数字最小代价                                                        | :wrench: |
+| 130 | 含有给定字符串的最小子串长度                                                  | :wrench: |
+| 131 | 实现缓存结构                                                          | :wrench: |
+| 132 | 加油站良好出发点问题                                                      | :wrench: |
+
