@@ -18,7 +18,7 @@
 ## 2.1. java基础
   - [基本数据类型](/docs/1.basics/1.java-basic/1-shujuleixing.md)<br>
   - [基本语法](/docs/1.basics/1.java-basic/2-basicyufa.md)<br>
-  - [关键字]()<br>
+  - [关键字](/docs/1.basics/1.java-basic/6-reflect.md)<br>
   - [集合与数组]()<br>
   - [IO及NIO]()<br>
   - [反射]()<br>
