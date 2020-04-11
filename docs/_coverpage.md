@@ -1,15 +1,14 @@
 <div class="cover-main"><img width="180px" src="icon/QQ图片20200409200450.jpg">
 <h1 id="toBeTopJavaer">
-<a><span>codefool0307—Java工程师两万五千里辛苦路</span></a></h1>
+<a><span>codefool0307—Java工程师两万五千里征途</span></a></h1>
 
 
 
 <div align="center">
-    <a href="https://gitstar-ranking.com/repositories"> <img src="https://badgen.net/badge/author/shr?icon=github&color=4ab8a1"></a>
-    <a href="assets/download.md"> <img src="https://badgen.net/badge/vsersion/v1.0.0?icon=telegram&color=4ab8a1"></a>
-    <a href="https://cyc2018.github.io/CS-Notes"> <img src="https://badgen.net/badge/cy/%E5%9C%A8%E7%BA%BF%E9%98%85%E8%AF%BB?icon=sourcegraph&color=4ab8a1"></a>
-    <a href="#微信公众号"> <img src="https://badgen.net/badge/%e5%85%ac%e4%bc%97%e5%8f%b7/CyC2018?icon=rss&color=4ab8a1"></a>
-    ![Total visitor](https://visitor-count-badge.herokuapp.com/total.svg?repo_id=azl397985856.fe-interview)
+    <a href="https://github.com/codefool0307/Javastudyer/blob/master/authorintroducer.md"> <img src="https://badgen.net/badge/%e4%bd%9c%e8%80%85/shr?icon=github&color=4ab8a1"></a>
+    <a href=""> <img src="https://badgen.net/badge/%e7%89%88%e6%9c%ac/v1.0.0?icon=telegram&color=4ab8a1"></a>
+    <a href="https://codefool0307.github.io/Javastudyer/#/"> <img src="https://badgen.net/badge/%e9%98%85%e8%af%bb/codefool0307?icon=sourcegraph&color=4ab8a1"></a>
+    <a href=""> <img src="https://badgen.net/badge/%e8%af%ad%e8%a8%80/Java?icon=rss&color=4ab8a1"></a>
 </div>
 <br>
 <span id="busuanzi_container_site_pv" style="display: inline;">
