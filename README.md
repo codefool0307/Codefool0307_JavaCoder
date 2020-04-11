@@ -16,8 +16,8 @@
 
 # 2. 一、Java基础综述
 ## 2.1. java基础
-  - [基本数据类型](/docs/1.basics/1.java-basic/shujuleixing.md)<br>
-  - [自动装箱拆箱]()<br>
+  - [基本数据类型](/docs/1.basics/1.java-basic/1-shujuleixing.md)<br>
+  - [基本语法](/docs/1.basics/1.java-basic/2-basicyufa.md)<br>
   - [关键字]()<br>
   - [集合与数组]()<br>
   - [IO及NIO]()<br>

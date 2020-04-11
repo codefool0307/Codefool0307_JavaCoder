@@ -2,6 +2,6 @@
 
     * java基础知识
     
-        * [数据类型](/1.basics/1.java-basic/shujuleixing.md)  
-        * [自动装箱拆箱](/1.basics/1.java-basic/boxautoandunauto.md)
+        * [数据类型](/1.basics/1.java-basic/1-shujuleixing.md)  
+        * [基础语法](/1.basics/1.java-basic/2-basicyufa.md)
     
