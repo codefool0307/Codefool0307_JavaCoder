@@ -13,7 +13,7 @@
     </tr>
     <tr>
         <td>2020年4月11日</td>
-        <td><a href="/1.basics/1.java-basic/1-数据类型.md">数据类型</a>、<a href="/1.basics/1.java-basic/2-基础语法.md">基础语法</a>、<a href="/1.basics/1.java-basic/6-反射.md">反射</a></td>
+        <td><a href="#/1.basics/1.java-basic/1-%E6%95%B0%E6%8D%AE%E7%B1%BB%E5%9E%8B">数据类型</a>、<a href="#/1.basics/1.java-basic/2-%e5%9f%ba%e7%a1%80%e8%af%ad%e6%b3%95.md">基础语法</a>、<a href="/1.basics/1.java-basic/6-反射.md">反射</a></td>
         <td>排序算法</td>
         <td>:pencil2:</td>
         <td>:wrench:</td>
@@ -22,7 +22,7 @@
     </tr>
     <tr>
         <td>2020年4月12日</td>
-        <td><a href="/1.basics/1.java-basic/3-关键字.md">关键字</a>、<a href="/1.basics/1.java-basic/4-集合.md">集合/数组</a>、<a href="/1.basics/1.java-basic/23-源码分析.md">源码分析</td>
+        <td><a href="#/1.basics/1.java-basic/3-关键字.md">关键字</a>、<a href="#/1.basics/1.java-basic/4-集合.md">集合/数组</a>、<a href="/1.basics/1.java-basic/23-源码分析.md">源码分析</td>
         <td ><a href="https://codefool0307.github.io/Javastudyer/#/menu?id=h2iiih2">1-6</a></td>
         <td>:pencil2:</td>
         <td>:wrench:</td>
@@ -31,7 +31,7 @@
     </tr>
     <tr>
         <td>2020年4月13日</td>
-        <td><a href="/1.basics/1.java-basic/5-IO.md">IO及NIO</a></td>
+        <td><a href="#/1.basics/1.java-basic/5-IO.md">IO及NIO</a></td>
         <td><a href="https://codefool0307.github.io/Javastudyer/#/menu?id=h2iiih2"/>7-9</td>
         <td>:wrench:</td>
         <td>:wrench:</td>
@@ -40,7 +40,7 @@
     </tr>
     <tr>
         <td>2020年4月14日</td>
-        <td><a href="/1.basics/1.java-basic/7-动态代理.md">动态代理、序列化、注解</td>
+        <td><a href="#/1.basics/1.java-basic/7-动态代理.md">动态代理、序列化、注解</td>
         <td><a href="https://codefool0307.github.io/Javastudyer/#/menu?id=h2iiih2"/>10-12</td>
         <td>:wrench:</td>
         <td>:wrench:</td>
@@ -49,7 +49,7 @@
     </tr>
     <tr>
         <td>2020年4月15日</td>
-        <td><a href="/1.basics/1.java-basic/10-泛型.md">泛型</a>、<a href="/1.basics/1.java-basic/11-单元测试.md">单元测试</a></td>
+        <td><a href="#/1.basics/1.java-basic/10-泛型.md">泛型</a>、<a href="#/1.basics/1.java-basic/11-单元测试.md">单元测试</a></td>
         <td><a href="https://codefool0307.github.io/Javastudyer/#/menu?id=h2iiih2"/>13-16</td>
         <td>:wrench:</td>
         <td>:wrench:</td>
@@ -58,7 +58,7 @@
     </tr>
     <tr>
         <td>2020年4月16日</td>
-        <td><a href="/1.basics/1.java-basic/12-正则表达式.md">正则表达式</a>、<a href="/1.basics/1.java-basic/13-API.md">API&amp;SPI</a></td>
+        <td><a href="#/1.basics/1.java-basic/12-正则表达式.md">正则表达式</a>、<a href="#/1.basics/1.java-basic/13-API.md">API&amp;SPI</a></td>
         <td><a href="https://codefool0307.github.io/Javastudyer/#/menu?id=h2iiih2"/>17-19</td>
         <td>:wrench:</td>
         <td>:wrench:</td>
@@ -67,7 +67,7 @@
     </tr>
     <tr>
         <td>2020年4月17日</td>
-        <td><a href="/1.basics/1.java-basic/14-异常.md">异常</a>、<a href="/1.basics/1.java-basic/15-流.md">流</a></td>
+        <td><a href="#/1.basics/1.java-basic/14-异常.md">异常</a>、<a href="#/1.basics/1.java-basic/15-流.md">流</a></td>
         <td><a href="https://codefool0307.github.io/Javastudyer/#/menu?id=h2iiih2"/>20-22</td>
         <td>:wrench:</td>
         <td>:wrench:</td>
@@ -76,7 +76,7 @@
     </tr>
     <tr>
         <td>2020年4月18日</td>
-        <td><a href="/1.basics/1.java-basic/16-编码方式.md">编码方式</a>、<a href="/1.basics/1.java-basic/17-语法糖.md">语法糖</a>、<a href="/1.basics/1.java-basic/18-网络编程.md">网络编程</a></td>
+        <td><a href="#/1.basics/1.java-basic/16-编码方式.md">编码方式</a>、<a href="#/1.basics/1.java-basic/17-语法糖.md">语法糖</a>、<a href="#/1.basics/1.java-basic/18-网络编程.md">网络编程</a></td>
         <td><a href="https://codefool0307.github.io/Javastudyer/#/menu?id=h2iiih2"/>23-25</td>
         <td>:wrench:</td>
         <td>:wrench:</td>
@@ -85,7 +85,7 @@
     </tr>
     <tr>
         <td>2020年4月19日</td>
-        <td><a href="/1.basics/1.java-basic/22-新特性.md">java新特性</a>、<a href="/1.basics/1.java-basic/18-函数式编程.md">函数式编程</a>、<a href="/1.basics/1.java-basic/19-方法引用.md">方法引用</a></td>
+        <td><a href="#/1.basics/1.java-basic/22-新特性.md">java新特性</a>、<a href="#/1.basics/1.java-basic/18-函数式编程.md">函数式编程</a>、<a href="#/1.basics/1.java-basic/19-方法引用.md">方法引用</a></td>
         <td><a href="https://codefool0307.github.io/Javastudyer/#/menu?id=h2iiih2"/>26-28</td>
         <td>:wrench:</td>
         <td>:wrench:</td>
@@ -94,7 +94,7 @@
     </tr>
     <tr>
         <td>2020年4月20日</td>
-        <td><a href="/1.basics/1.java-basic/21-常用类.md">常用类</td>
+        <td><a href="#/1.basics/1.java-basic/21-常用类.md">常用类</td>
         <td><a href="https://codefool0307.github.io/Javastudyer/#/menu?id=h2iiih2"/>29-31</td>
         <td>:wrench:</td>
         <td>:wrench:</td>
