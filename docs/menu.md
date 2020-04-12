@@ -25,7 +25,7 @@
         <td><a href="#/1.basics/1.java-basic/3-关键字.md">关键字</a>、<a href="#/1.basics/1.java-basic/4-集合.md">集合/数组</a>、<a href="/1.basics/1.java-basic/23-源码分析.md">源码分析</td>
         <td ><a href="https://codefool0307.github.io/Javastudyer/#/menu?id=h2iiih2">1-6</a></td>
         <td>:pencil2:</td>
-        <td>:wrench:</td>
+        <td>:pencil2:</td>
         <td>:wrench:</td>
         <td>:wrench:</td>
     </tr>

@@ -27,6 +27,8 @@
         * [23 源码分析](/1.basics/1.java-basic/23-源码.md)
 
 * 第四部分、数据结构与算法
+
+    * 知识点
   
         * [1 栈与队列](/4.algorithm/1-栈与队列.md)
         * [2 链表](/4.algorithm/2-链表.md)
@@ -43,7 +45,7 @@
         * [13 KMP](/4.algorithm/13-KMP.md)
         * [14 分治](/4.algorithm/14-分治.md)
         * [15 贪心](/4.algorithm/15-贪心.md)
-        * [16 动态规划](/4.algorithm/16- 动态规划.md)
+        * [16 动态规划](/4.algorithm/16-动态规划.md)
         * [17 四大算法](/4.algorithm/17-四大算法.md)
         
 
