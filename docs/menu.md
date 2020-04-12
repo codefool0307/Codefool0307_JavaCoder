@@ -49,7 +49,7 @@
     </tr>
     <tr>
         <td>2020年4月15日</td>
-        <td>泛型、单元测试</td>
+        <td><a href="/1.basics/1.java-basic/10-泛型.md">泛型</a>、<a href="/1.basics/1.java-basic/11-单元测试.md">单元测试</a></td>
         <td><a href="https://codefool0307.github.io/Javastudyer/#/menu?id=h2iiih2"/>13-16</td>
         <td>:wrench:</td>
         <td>:wrench:</td>
@@ -58,7 +58,7 @@
     </tr>
     <tr>
         <td>2020年4月16日</td>
-        <td>正则表达式、API&amp;SPI</td>
+        <td><a href="/1.basics/1.java-basic/12-正则表达式.md">正则表达式</a>、<a href="/1.basics/1.java-basic/13-API.md">API&amp;SPI</a></td>
         <td><a href="https://codefool0307.github.io/Javastudyer/#/menu?id=h2iiih2"/>17-19</td>
         <td>:wrench:</td>
         <td>:wrench:</td>
@@ -67,7 +67,7 @@
     </tr>
     <tr>
         <td>2020年4月17日</td>
-        <td>异常、流</td>
+        <td><a href="/1.basics/1.java-basic/14-异常.md">异常</a>、<a href="/1.basics/1.java-basic/15-流.md">流</a></td>
         <td><a href="https://codefool0307.github.io/Javastudyer/#/menu?id=h2iiih2"/>20-22</td>
         <td>:wrench:</td>
         <td>:wrench:</td>
@@ -76,7 +76,7 @@
     </tr>
     <tr>
         <td>2020年4月18日</td>
-        <td>编码方式、语法糖、网络编程</td>
+        <td><a href="/1.basics/1.java-basic/16-编码方式.md">编码方式</a>、<a href="/1.basics/1.java-basic/17-语法糖.md">语法糖</a>、<a href="/1.basics/1.java-basic/18-网络编程.md">网络编程</a></td>
         <td><a href="https://codefool0307.github.io/Javastudyer/#/menu?id=h2iiih2"/>23-25</td>
         <td>:wrench:</td>
         <td>:wrench:</td>
@@ -85,7 +85,7 @@
     </tr>
     <tr>
         <td>2020年4月19日</td>
-        <td>java新特性、函数式编程、方法引用</td>
+        <td><a href="/1.basics/1.java-basic/22-新特性.md">java新特性</a>、<a href="/1.basics/1.java-basic/18-函数式编程.md">函数式编程</a>、<a href="/1.basics/1.java-basic/19-方法引用.md">方法引用</a></td>
         <td><a href="https://codefool0307.github.io/Javastudyer/#/menu?id=h2iiih2"/>26-28</td>
         <td>:wrench:</td>
         <td>:wrench:</td>
@@ -94,7 +94,7 @@
     </tr>
     <tr>
         <td>2020年4月20日</td>
-        <td>常用类</td>
+        <td><a href="/1.basics/1.java-basic/21-常用类.md">常用类</td>
         <td><a href="https://codefool0307.github.io/Javastudyer/#/menu?id=h2iiih2"/>29-31</td>
         <td>:wrench:</td>
         <td>:wrench:</td>
