@@ -1,7 +1,8 @@
 # 5 IO及NIO
 
 ## 5.0 IO流综述
-![avatar](./assets/5-1.jpg)
+
+框架图之后进行补充
 
 ## 5.1 File类
 &#8195;&#8195;File是个文件类，可以用其增加、删除、查找某种类型的文
@@ -898,4 +899,3 @@ InputStream in = new BufferedInputStream(new FileInputStream(name));
 ResourceBundle rb = new PropertyResourceBundle(in);
 
 ```
-
