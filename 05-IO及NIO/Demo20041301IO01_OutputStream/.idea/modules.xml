@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Demo20041301IO01_OutputStream.iml" filepath="$PROJECT_DIR$/Demo20041301IO01_OutputStream.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../Demo20041301IO02_OutputStream02/Demo20041301IO02_OutputStream02.iml" filepath="$PROJECT_DIR$/../Demo20041301IO02_OutputStream02/Demo20041301IO02_OutputStream02.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../Demo20041302IO03_OutputStream03/Demo20041302IO03_OutputStream03.iml" filepath="$PROJECT_DIR$/../Demo20041302IO03_OutputStream03/Demo20041302IO03_OutputStream03.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../Demo20041302IO04_InputStream04/Demo20041302IO04_InputStream04.iml" filepath="$PROJECT_DIR$/../Demo20041302IO04_InputStream04/Demo20041302IO04_InputStream04.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../Demo20041302IO05_InputStream02/Demo20041302IO05_InputStream02.iml" filepath="$PROJECT_DIR$/../Demo20041302IO05_InputStream02/Demo20041302IO05_InputStream02.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../Demo20041302IO06_Writer01/Demo20041302IO06_Writer01.iml" filepath="$PROJECT_DIR$/../Demo20041302IO06_Writer01/Demo20041302IO06_Writer01.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../Demo20041302IO07_Reader01/Demo20041302IO07_Reader01.iml" filepath="$PROJECT_DIR$/../Demo20041302IO07_Reader01/Demo20041302IO07_Reader01.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../Demo20041302IO08_BufferedInputStream01/Demo20041302IO08_BufferedInputStream01.iml" filepath="$PROJECT_DIR$/../Demo20041302IO08_BufferedInputStream01/Demo20041302IO08_BufferedInputStream01.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../Demo20041302IO08_BufferedOutputStream01/Demo20041302IO08_BufferedOutputStream01.iml" filepath="$PROJECT_DIR$/../Demo20041302IO08_BufferedOutputStream01/Demo20041302IO08_BufferedOutputStream01.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../Demo20041302IO10_BufferedWriter01/Demo20041302IO10_BufferedWriter01.iml" filepath="$PROJECT_DIR$/../Demo20041302IO10_BufferedWriter01/Demo20041302IO10_BufferedWriter01.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../Demo20041302IO11_BufferedReader01/Demo20041302IO11_BufferedReader01.iml" filepath="$PROJECT_DIR$/../Demo20041302IO11_BufferedReader01/Demo20041302IO11_BufferedReader01.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../Demo20041302IO12_OutputStreamWriter01/Demo20041302IO12_OutputStreamWriter01.iml" filepath="$PROJECT_DIR$/../Demo20041302IO12_OutputStreamWriter01/Demo20041302IO12_OutputStreamWriter01.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../Demo20041302IO13_InputStreamReader01/Demo20041302IO13_InputStreamReader01.iml" filepath="$PROJECT_DIR$/../Demo20041302IO13_InputStreamReader01/Demo20041302IO13_InputStreamReader01.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../Demo2041302IO13_Print/Demo2041302IO13_Print.iml" filepath="$PROJECT_DIR$/../Demo2041302IO13_Print/Demo2041302IO13_Print.iml" />
+    </modules>
+  </component>
+</project>
