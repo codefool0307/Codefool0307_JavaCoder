@@ -1027,9 +1027,16 @@
 # <h2><b>II</b></h2>
 
 <table  align="center" width="80">
-    <tr width="100">
+    <tr>
         <th>类型</th>
         <th>题号</th>
+        <th>左程云</th>
+        <th>剑指offer</th>
+        <th>leetcode</th>
+    </tr>
+    <tr>
+        <th>排序</th>
+        <th>暂无</th>
         <th>左程云</th>
         <th>剑指offer</th>
         <th>leetcode</th>
@@ -1052,27 +1059,27 @@
     <tr>
         <td>1</td>
         <td>时间复杂度和空间复杂度</td>
-        <td>:wrench:</td>
+        <td>:pencil2:</td>
     </tr>
     <tr>
         <td>2</td>
         <td>选择排序</td>
-        <td>:wrench:</td>
+        <td>:pencil2:</td>
     </tr>
     <tr>
         <td>3</td>
         <td>冒泡排序</td>
-        <td>:wrench:</td>
+        <td>:pencil2:</td>
     </tr>
     <tr>
         <td>4</td>
         <td>插入排序</td>
-        <td>:wrench:</td>
+        <td>:pencil2:</td>
     </tr>
     <tr>
         <td>5</td>
         <td>时间复杂度分析</td>
-        <td>:wrench:</td>
+        <td>:pencil2:</td>
     </tr>
     <tr>
         <td>6</td>
