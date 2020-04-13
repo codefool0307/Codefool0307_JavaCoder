@@ -801,6 +801,7 @@ public class print {
 
 ### 5.2.6 Properties类
 
+#### 5.2.6.1 Properties常用方法
 
 &#8195;&#8195;Properties 类表示了一个持久的属性集。Properties 可保存在流中或从流中加载。
 
@@ -808,43 +809,66 @@ public class print {
 属性列表中每个键及其对应值都是一个字符串。
 
 &#8195;&#8195;Properties集合是一个双列集合,key和value默认都是字符串
-3.35.2.1.1store方法
-可以使用Properties集合中的方法store,把集合中的临时数据,持久化写入到硬盘中存储
-void store(OutputStream out, String comments)     void store(Writer writer, String comments)
+* <h4>Stroe方法Stroe方法
+&#8195;&#8195;可以使用Properties集合中的方法store,把集合中的临时数据,持久化写入到硬盘中存储
+
+```java
+void store(OutputStream out, String comments)     
+void store(Writer writer, String comments)
 参数:OutputStream out:字节输出流,不能写入中文
      Writer writer:字符输出流,可以写中文
      String comments:注释,用来解释说明保存的文件是做什么用的
                     不能使用中文,会产生乱码,默认是Unicode编码  一般使用""空字符串
- 
-3.35.2.1.2 load方法
-可以使用Properties集合中的方法load,把硬盘中保存的文件(键值对),读取到集合中使用
-void load(InputStream inStream)          void load(Reader reader)
+```
+注：
+
+  Writer与OutputStream主要是一个是字符型，一个是字节型
+
+* <h4>load方法
+&#8195;&#8195;可以使用Properties集合中的方法load,把硬盘中保存的文件(键值对),读取到集合中使用
+
+```java
+void load(InputStream inStream)         
+void load(Reader reader)
    参数:
        InputStream inStream:字节输入流,不能读取含有中文的键值对
        Reader reader:字符输入流,能读取含有中文的键值对
+```
+
+#### 5.2.6.2 属性映射
  
-3.13.5.2 属性映射 
-是一种存储键/值对的数据结构。属性映射经常被用来存放配置信息。
-它有三个特性：键和值都是字符串
-键/值对可以很容易地写入文件或从文件读出。
-用二级表存放默认值
+
+&#8195;&#8195;是一种存储键/值对的数据结构。属性映射经常被用来存放配置信息。
+
+它有三个特性：
+
+- 键和值都是字符串
+
+- 键/值对可以很容易地写入文件或从文件读出。
+
+- 用二级表存放默认值
+  
+
 它提供了几个主要的方法：
-getProperty ( String key)：用指定的键在此属性列表中搜索属性。也就是通过参数 key ，得到 key 所对应的 value。
-setProperty ( String key, String value) ：调用 Hashtable 的方法 put 。他通过调用基类的put方法来设置 键 - 值对。
-clear ()：清除所有装载的 键 - 值对。该方法在基类中提供。
+
+```java
+getProperty ( String key)：               用指定的键在此属性列表中搜索属性。也就是通过参数 key ，得到 key 所对应的 value。
+setProperty ( String key, String value)： 调用 Hashtable 的方法 put 。他通过调用基类的put方法来设置 键 - 值对。
+clear ()：                                清除所有装载的 键 - 值对。该方法在基类中提供。
+```
+
 Properties类提供默认值的两种机制：
-1. 在试图获得字符串值时制定默认值。
-String title=settings.getProperty("title","Default title");
-2. 如果觉得每次调用都指定默认值太麻烦，那么就可以将所有的默认值放在一个二级属性映射中，并在主映射的构造器中提供映射。且用它来构造查询表。
-Properties defaultSettings=new properties();
-defaultSettings.setProperty("width","300");
-defaultSettings.setProperty("height","200");
-...
-Properties settings=new properties(defaultSettings);
-3.13.5.3 properties配置文件
-Java中的properties文件是一种纯文本格式的配置文件，主要用于表达配置信息，
-文件类型为 *.properties，文件中内容的格式是 "键=值" 的格式。在properties文件中，可以用井号"#"来作注释。
- 
+
+* 1. 在试图获得字符串值时制定默认值。
+  
+&#8195;&#8195;&#8195;&#8195;String title=settings.getProperty("title","Default title");
+
+* 2. 如果觉得每次调用都指定默认值太麻烦，那么就可以将所有的默认值放在一个二级属性映射中，并在主映射的构造器中提供映射。且用它来构造查询表。
+&#8195;&#8195;&#8195;&#8195;Properties settings=new properties(defaultSettings);
+
+&#8195;&#8195;Java中的properties文件是一种纯文本格式的配置文件，主要用于表达配置信息，文件类型为 *.properties，文件中内容的格式是 "键=值" 的格式。在properties文件中，可以用井号"#"来作注释。
+
+```java
 Java读取Properties文件的方法
 1. 使用java.util.Properties类的load()方法
 InputStream in = new BufferedInputStream(new FileInputStream(name));
@@ -873,37 +897,5 @@ properties文件的名字是有规范的：一般的命名规范是： 自定义
 InputStream in = new BufferedInputStream(new FileInputStream(name));
 ResourceBundle rb = new PropertyResourceBundle(in);
 
-
-
-
-
-<h3>一、程序</h3>
-
-
-
-<h3>二、结果展示</h3>
-
-<h3>三、可能存在的问题</h3>
-
-
-
-<h3>一、程序</h3>
-
-
-
-<h3>二、结果展示</h3>
-
-<h3>三、可能存在的问题</h3>
-
-
-
-<h3>一、程序</h3>
-
-
-
-<h3>二、结果展示</h3>
-
-<h3>三、可能存在的问题</h3>
-
-
+```
 
