@@ -1025,7 +1025,7 @@
 
 
 # <h2><b>II</b></h2>
-
+<h2>
 <table  align="center" width="80">
     <tr>
         <th>类型</th>
@@ -1044,13 +1044,13 @@
    
 </table>
 
-
+</h2>
 
 
 
 
 # <h2><b>III</b></h2>
-<table>
+<table align="center" width="80">
     <tr>
         <td>标号</td>
         <td>程序</td>
