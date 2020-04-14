@@ -2,12 +2,9 @@
 
 ## Java总体学习
 
-
 ## 第一部分、Java基础学习路线
 
-![Java基础学习路线图](https://github.com/codefool0307/Javastudyer/blob/master/docs/icon/Java-1.jpg "Java基础学习路线图")
-
-
+<div class="cover-main"><img width="1000px" src="icon/Java-1.jpg">
 
 # 笔记更新进度
 ## <h2><b>I</b></h2>
