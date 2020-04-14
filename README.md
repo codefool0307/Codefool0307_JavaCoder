@@ -1,45 +1,58 @@
-# 1. **Java**工程师必备技能
+# 1. Java工程师必备技能
 <div align="center">
     <a href="https://github.com/codefool0307/Javastudyer/blob/master/authorintroducer.md"> <img src="https://badgen.net/badge/%e4%bd%9c%e8%80%85/shr?icon=github&color=4ab8a1"></a>
     <a href=""> <img src="https://badgen.net/badge/%e7%89%88%e6%9c%ac/v1.0.0?icon=telegram&color=4ab8a1"></a>
     <a href="https://codefool0307.github.io/Javastudyer/#/"> <img src="https://badgen.net/badge/%e9%98%85%e8%af%bb/codefool0307?icon=sourcegraph&color=4ab8a1"></a>
     <a href=""> <img src="https://badgen.net/badge/%e8%af%ad%e8%a8%80/Java?icon=rss&color=4ab8a1"></a>
 </div>
-<!-- TOC -->
 
-- [1. **Java**工程师必备技能](#1-java%e5%b7%a5%e7%a8%8b%e5%b8%88%e5%bf%85%e5%a4%87%e6%8a%80%e8%83%bd)
-- [2. 一、Java基础综述](#2-%e4%b8%80java%e5%9f%ba%e7%a1%80%e7%bb%bc%e8%bf%b0)
-  - [2.1. java基础](#21-java%e5%9f%ba%e7%a1%80)
-  - [2.2. 并发](#22-%e5%b9%b6%e5%8f%91)
-  - [2.3. JVM](#23-jvm)
-- [3. 网络](#3-%e7%bd%91%e7%bb%9c)
+<hr/>
 
-<!-- /TOC -->
+* 第一部分、JAVA基础
 
-# 2. 一、Java基础综述
-## 2.1. java基础
-  - [基本数据类型](/docs/1.basics/1.java-basic/1-shujuleixing.md)<br>
-  - [基本语法](/docs/1.basics/1.java-basic/2-basicyufa.md)<br>
-  - [关键字]()<br>
-  - [集合与数组]()<br>
-  - [IO及NIO]()<br>
-  - [反射](/docs/1.basics/1.java-basic/6-reflect.md)<br>
-  - [动态代理]()<br>
-  - [序列化与反序列化]()<br>
-  - [注解]()<br>
-  - [泛型]()<br>
-  - [单元测试]()<br>
-  - [正则表达式]()<br>
-  - [API与SPI]()<br>
-  - [异常]()<br>
-  - [流]()<br>
-  - [编码方式]()<br>
-  - [语法糖]()<br>
-  - [函数式编程]()<br>
-  - [方法引用]()<br>
-  - [网络编程]()<br>
-  - [类]()<br>
-## 2.2. 并发
-## 2.3. JVM 
-# 3. 网络
+    * java二十一讲
 
+        * [1 数据类型](/1.basics/1.java-basic/1-数据类型.md)  
+        * [2 基础语法](/1.basics/1.java-basic/2-基础语法.md)
+        * [3 关键字](/1.basics/1.java-basic/3-关键字.md)
+        * [4 集合与数组](/1.basics/1.java-basic/4-集合.md)
+        * [5 BIO](/1.basics/1.java-basic/5-IO.md)
+        * [5-1 NIO与AIO](/1.basics/1.java-basic/5-1-IO.md)
+        * [6 反射](/1.basics/1.java-basic/6-反射.md)
+        * [6-1 动态代理](/1.basics/1.java-basic/601-动态代理.md)
+        * [7 注解](/1.basics/1.java-basic/9-注解.md)
+        * [8 泛型](/1.basics/1.java-basic/10-泛型.md)
+        * [9 单元测试](/1.basics/1.java-basic/11-单元测试.md)
+        * [10 正则表达式](/1.basics/1.java-basic/12-正则表达式.md)
+        * [11 API与SPI](/1.basics/1.java-basic/13-API.md)
+        * [12 异常](/1.basics/1.java-basic/14-异常.md)
+        * [13 流](/1.basics/1.java-basic/15-流.md)
+        * [14 编码方式](/1.basics/1.java-basic/16-编码方式.md)
+        * [15 语法糖](/1.basics/1.java-basic/17-语法糖.md)
+        * [16 函数式编程](/1.basics/1.java-basic/18-函数式编程.md)
+        * [17 方法引用](/1.basics/1.java-basic/19-方法引用.md)
+        * [18 网络编程](/1.basics/1.java-basic/20-网络编程.md)
+        * [19 常用类](/1.basics/1.java-basic/21-类.md)
+        * [20 Java8~14新特性](/1.basics/1.java-basic/22-新特性.md)
+        * [21 源码分析](/1.basics/1.java-basic/23-源码.md)
+
+* 第四部分、数据结构与算法
+    * 知识点
+        * [1 栈与队列](/4.algorithm/1-栈与队列.md)
+        * [2 链表](/4.algorithm/2-链表.md)
+        * [3 二叉树](/4.algorithm/3-二叉树.md)
+        * [4 递归](/4.algorithm/4-递归.md)
+        * [5 字符串](/4.algorithm/5-字符串.md)
+        * [6 大数据](/4.algorithm/6-大数据.md)
+        * [7 位运算](/4.algorithm/7-位运算.md)
+        * [8 数组矩阵](/4.algorithm/8-数组矩阵.md)
+        * [9 排序](/4.algorithm/9-排序.md)
+        * [10 查找](/4.algorithm/10-查找.md)
+        * [11 图](/4.algorithm/11-图.md)
+        * [12 哈希表](/4.algorithm/12-哈希表.md)
+        * [13 KMP](/4.algorithm/13-KMP.md)
+        * [14 分治](/4.algorithm/14-分治.md)
+        * [15 贪心](/4.algorithm/15-贪心.md)
+        * [16 动态规划](/4.algorithm/16-动态规划.md)
+        * [17 四大算法](/4.algorithm/17-四大算法.md)
+        * [18-1 小技巧——异或](/4.algorithm/18-小技巧1异或.md)
