@@ -1,8 +1,5 @@
 # 5 IO及NIO
 
-## 5.0 IO流综述
-
-框架图之后进行补充
 
 ## 5.1 File类
 &#8195;&#8195;File是个文件类，可以用其增加、删除、查找某种类型的文
@@ -63,6 +60,14 @@ C、创建删除功能的方法
         如果构造方法中给出的路径不是一个目录,也会抛出空指针异常
  
 ## 5.2 IO
+
+### 5.2.0 IO流分类
+
+![avatar](./assets/5-9.jpg)
+
+那么，流的分类共有
+
+![avatar](./assets/5-10.jpg)
 
 ### 5.2.0 IO流程
 
@@ -434,7 +439,7 @@ public class Read01 {
 
 ### 5.2.3 缓冲流
 
-### 5.2.3.0 缓冲流原理
+#### 5.2.3.0 缓冲流原理
 ![avatar](./assets/5-7.jpg)
 
 #### 5.2.3.1 字节缓冲流
@@ -800,7 +805,123 @@ public class print {
 <h3>三、可能存在的问题</h3>
 
 
-### 5.2.6 Properties类
+### 5.2.6 标准输入、输出流(了解)
+
+#### 5.2.6.1 常用方法
+
+System.in和System.out分别代表了系统标准的输入和输出设备
+
+默认输入设备是： 键盘， 输出设备是：显示器
+
+- System.in的类型是InputStream
+- System.out的类型是PrintStream，其是OutputStream的子类
+FilterOutputStream 的子类
+
+重定向：通过System类的setIn， setOut方法对默认设备进行改变。
+
+```java
+public static void setIn(InputStream in)
+public static void setOut(PrintStream out)
+```
+
+
+
+### 5.2.7 数据流(了解)
+
+#### 5.2.7.1 常用方法
+
+为了方便地操作Java语言的基本数据类型和String的数据，可以使用数据流。
+
+数据流有两个类： 
+ DataInputStream 和 DataOutputStream
+
+```java
+DataInputStream中的方法
+boolean readBoolean() byte readByte()
+char readChar() float readFloat()
+double readDouble() short readShort()
+long readLong() int readInt()
+String readUTF() void readFully(byte[] b)
+DataOutputStream中的方法
+将上述的方法的read改为相应的write即可
+```
+
+
+
+### 5.2.8 对象流（序列化流）
+
+#### 5.2.8.0 序列化原理
+
+![avatar](./assets/5-11.jpg)
+
+#### 5.2.8.1 对象输出流——ObjectOutputStream
+
+#### 5.2.8.1.1 常用方法
+
+```java
+构造方法:
+       ObjectOutputStream(OutputStream out) 创建写入指定 OutputStream 的 ObjectOutputStream。
+        参数:OutputStream out:字节输出流
+特有的成员方法:
+        void writeObject(Object obj) 将指定的对象写入 ObjectOutputStream。
+```
+<h3>一、程序
+
+```java
+import java.io.FileOutputStream;
+import java.io.IOException;
+import java.io.ObjectOutputStream;
+public class Object {
+    public static void main(String[] args) throws IOException {
+        ObjectOutputStream oos = new ObjectOutputStream(new FileOutputStream("a.txt"));
+        oos.writeObject(new Person("sun",23));
+        oos.flush();
+    }
+}
+```
+
+<h3>二、结果展示
+
+```java
+Exception in thread "main" java.io.NotSerializableException: Person
+	at java.base/java.io.ObjectOutputStream.writeObject0(ObjectOutputStream.java:1185)
+	at java.base/java.io.ObjectOutputStream.writeObject(ObjectOutputStream.java:349)
+	at Object.main(Object.java:9)
+```
+
+<h3>三、可能出现的问题</h3>
+
+序列化和反序列化的时候,会抛出<font color=#23456>NotSerializableException没有序列化异常</font>
+
+
+解决方案：
+
+    通过java.io.Serializable 接口以启用其序列化功能。
+    未实现此接口的类将无法使其任何状态序列化或反序列化。
+    
+    
+Serializable接口也叫标记型接口
+    要进行序列化和反序列化的类必须实现Serializable接口,就会给类添加 一个标记
+        当我们进行序列化和反序列化的时候,就会检测类上是否有这个标记
+            有:就可以序列化和反序列化
+            没有:就会抛出 NotSerializableException异常
+   类似于去市场买肉-->肉上有一个蓝色章(检测合格)-->放心购买-->买回来怎么吃随意
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+### 5.2.10 Properties类
 
 #### 5.2.6.1 Properties常用方法
 
