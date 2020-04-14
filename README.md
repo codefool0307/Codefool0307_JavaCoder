@@ -1,4 +1,4 @@
-# 1. Java工程师必备技能
+# <h1><font style="background: repeating-linear-gradient(red, yellow 10%, green 20%)">Java工程师必备技能</font></h1>
 <div align="center">
     <a href="https://github.com/codefool0307/Javastudyer/blob/master/authorintroducer.md"> <img src="https://badgen.net/badge/%e4%bd%9c%e8%80%85/shr?icon=github&color=4ab8a1"></a>
     <a href=""> <img src="https://badgen.net/badge/%e7%89%88%e6%9c%ac/v1.0.0?icon=telegram&color=4ab8a1"></a>
