@@ -856,7 +856,7 @@ DataOutputStream中的方法
 
 #### 5.2.8.1 对象输出流——ObjectOutputStream
 
-#### 5.2.8.1.1 常用方法
+##### 5.2.8.1.1 常用方法
 
 ```java
 构造方法:
@@ -866,6 +866,22 @@ DataOutputStream中的方法
         void writeObject(Object obj) 将指定的对象写入 ObjectOutputStream。
 ```
 <h3>一、程序
+
+```java
+public class Person {
+    private String name;
+    private int age;
+    public Person() {}
+    public Person(String name, int age) {
+        this.name = name;
+        this.age = age;
+    }
+    public String getName() {return name;}
+    public void setName(String name) {this.name = name;}
+    public int getAge() {return age;}
+    public void setAge(int age) {this.age = age;}
+}
+```
 
 ```java
 import java.io.FileOutputStream;
@@ -896,16 +912,118 @@ Exception in thread "main" java.io.NotSerializableException: Person
 
 解决方案：
 
-    通过java.io.Serializable 接口以启用其序列化功能。
-    未实现此接口的类将无法使其任何状态序列化或反序列化。
+    通过java.io.Serializable 接口以启用其序列化功能
     
-    
+注：
+
 Serializable接口也叫标记型接口
-    要进行序列化和反序列化的类必须实现Serializable接口,就会给类添加 一个标记
+
+要进行序列化和反序列化的类必须实现Serializable接口,就会给类添加一个标记
         当我们进行序列化和反序列化的时候,就会检测类上是否有这个标记
             有:就可以序列化和反序列化
             没有:就会抛出 NotSerializableException异常
-   类似于去市场买肉-->肉上有一个蓝色章(检测合格)-->放心购买-->买回来怎么吃随意
+
+ 类似于去市场买肉-->肉上有一个蓝色章(检测合格)-->放心购买-->买回来怎么吃随意
+
+
+<h3>一、程序
+
+```java
+import java.io.Serializable;
+
+public class Person implements Serializable {
+    private String name;
+    private int age;
+
+    public Person() {
+    }
+    ………………………………
+```
+
+<h3>二、结果展示
+
+可以生成a.txt文件并生成
+```java
+
+```
+
+<h3>三、可能出现的问题</h3>
+
+
+#### 5.2.8.2 对象输入流——ObjectInputStream
+
+##### 5.2.8.2.1 常用方法
+
+    ObjectInputStream:对象的反序列化流作用:把文件中保存的对象
+    以流的方式读取出来使用
+
+```java
+    ObjectInputStream(InputStream in) 创建从指定 InputStream 
+    读取的 ObjectInputStream。
+      参数:InputStream in:字节输入流
+    特有的成员方法:
+        Object readObject() 从 ObjectInputStream 读取对象。
+```
+注：
+
+readObject方法声明抛出了ClassNotFoundException(class文件找不到异常)
+
+当不存在对象的class文件时抛出此异常
+
+反序列化的前提:
+- 1.类必须实现Serializable      
+- 2.必须存在类对应的class文件
+
+<h3>一、程序
+
+```java
+import java.io.Serializable;
+
+public class Person implements Serializable {
+    private String name;
+    private int age;
+
+    public Person() {
+    }
+    ………………………………
+```
+
+```java
+import java.io.FileInputStream;
+import java.io.FileNotFoundException;
+import java.io.IOException;
+import java.io.ObjectInputStream;
+
+public class Serable {
+    public static void main(String[] args) throws IOException, ClassNotFoundException {
+        ObjectInputStream ois = new ObjectInputStream(new FileInputStream("a.txt"));
+        Person o = (Person) ois.readObject();
+        ois.close();
+        System.out.println(o.getAge()+"-----"+o.getName());
+    }
+}
+```
+
+<h3>二、结果展示
+
+可以生成a.txt文件并生成
+```java
+    23-----sun
+```
+
+<h3>三、可能出现的问题</h3>
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
