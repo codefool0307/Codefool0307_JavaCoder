@@ -9,7 +9,7 @@
         * [5 BIO](/1.basics/1.java-basic/5-IO.md)
         * [5-1 NIO与AIO](/1.basics/1.java-basic/5-1-IO.md)
         * [6 反射](/1.basics/1.java-basic/6-反射.md)
-        * [7 动态代理](/1.basics/1.java-basic/7-动态代理.md)
+        * [6-1 动态代理](/1.basics/1.java-basic/601-动态代理.md)
         * [8 序列化与反序列化](/1.basics/1.java-basic/8-序列化.md)
         * [9 注解](/1.basics/1.java-basic/9-注解.md)
         * [10 泛型](/1.basics/1.java-basic/10-泛型.md)

@@ -9,7 +9,7 @@
         * [5 BIO](/1.basics/1.java-basic/5-IO.md)
         * [5-1 NIO与AIO](/1.basics/1.java-basic/5-1-IO.md)
         * [6 反射](/1.basics/1.java-basic/6-反射.md)
-        * [7 动态代理](/1.basics/1.java-basic/7-动态代理.md)
+        * [6-1 动态代理](/1.basics/1.java-basic/601-动态代理.md)
         * [8 序列化与反序列化](/1.basics/1.java-basic/8-序列化.md)
         * [9 注解](/1.basics/1.java-basic/9-注解.md)
         * [10 泛型](/1.basics/1.java-basic/10-泛型.md)
@@ -48,6 +48,7 @@
         * [15 贪心](/4.algorithm/15-贪心.md)
         * [16 动态规划](/4.algorithm/16-动态规划.md)
         * [17 四大算法](/4.algorithm/17-四大算法.md)
+        * [18-1 小技巧——异或](/4.algorithm/18-小技巧1异或.md)
         
 
 
