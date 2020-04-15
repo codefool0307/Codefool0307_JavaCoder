@@ -9,15 +9,20 @@
     <link rel="stylesheet" href="//unpkg.com/docsify/lib/themes/vue.css">
 
 </head>
-<link rel=“stylesheet” href="//unpkg.com/gitalk/dist/gitalk.css">
+<link rel="stylesheet" href="//cdn.bootcss.com/gitalk/1.5.0/gitalk.min.css">
+<script src="//cdn.bootcss.com/gitalk/1.5.0/gitalk.min.js"></script>
+
+
 <body>
-		
+		<!---必须要带#，否则访问不到-->>
  <nav align=“right”>
-    <a href="#/">github地址</a>
+    <a href="#/README.md">个人简介</a>
     <a href="#/home1">Java基础</a>
     <a href="#/bar/a">bar/a</a>
   </nav>
 <div id="app">正在加载中....</div>
+<!---评论区使用-->>
+<div id="gitalk-container">演示</div>
 
 <script>
     window.$docsify = {
@@ -47,7 +52,20 @@
         coverpage: true,
 		notFoundPage: true
     }
+    const gitalk = new Gitalk({
+			clientID: '119739a0c578ca6ab9e0',
+			clientSecret: 'ac8ce3563deb53a2baf6be3d14399ad5c897618b',
+			repo: 'https://github.com/codefool0307/discuss',
+			owner: 'codefool0307',
+			admin: ['codefool0307'],
+        
+		  })
+        
+         
+          gitalk.render('gitalk-container');
+
 </script>
+<div id="gitalk-container">演示</div>
 <script src="//unpkg.com/docsify/lib/docsify.min.js"></script>
 <!--代码块复制插件-->
 <script src="//unpkg.com/docsify-copy-code"></script>
@@ -64,7 +82,6 @@
 <script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
 <!--评论-->
 <script src="//unpkg.com/docsify/lib/plugins/disqus.min.js"></script>
-<script src="//unpkg.com/docsify/lib/plugins/gitalk.min.js"></script>
-<script src="//unpkg.com/gitalk/dist/gitalk.min.js"></script>
+
 </body>
 </html>
