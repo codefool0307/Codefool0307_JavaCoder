@@ -1,7 +1,7 @@
 <!--
- * @Author: your name
+ * @Author: 孙浩然
  * @Date: 2020-04-08 16:14:01
- * @LastEditTime: 2020-04-15 22:36:47
+ * @LastEditTime: 2020-04-15 22:42:31
  * @LastEditors: Please set LastEditors
  * @Description: In User Settings Edit
  * @FilePath: \docsd:\04.github\Javastudyer\README.md
@@ -18,7 +18,12 @@
 
 <h2>github路线：<a href="https://codefool0307.github.io/JavaScholar/#/">地址</a></h2>
 
-<hr/>
+<hr size=10 color=red>
+
+| 主要版本 | 更新时间       | 备注             |
+| ---- | ---------- | -------------- |
+| v1.1 | 2020-04-15 | 首次发布更改<br> 增加新功能:<br> 1.设置评论区<br> 2.设置动画<br>           |
+
 
 * 第一部分、JAVA基础
 
