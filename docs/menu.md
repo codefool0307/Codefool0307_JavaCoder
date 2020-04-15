@@ -23,7 +23,7 @@
         <td>2020年4月11日</td>
         <td><a href="#/1.basics/1.java-basic/1-%E6%95%B0%E6%8D%AE%E7%B1%BB%E5%9E%8B">数据类型</a>、<a href="#/1.basics/1.java-basic/2-%e5%9f%ba%e7%a1%80%e8%af%ad%e6%b3%95.md">基础语法</a>、<a href="/1.basics/1.java-basic/6-反射.md">反射</a></td>
         <td>排序算法</td>
-        <td>:pencil2:</td>
+        <td>[:pencil2:]</td>
         <td>:wrench:</td>
         <td>:wrench:</td>
         <td>:wrench:</td>
@@ -41,7 +41,7 @@
         <td>2020年4月13日</td>
         <td><a href="#/1.basics/1.java-basic/5-IO.md">IO及NIO</a></td>
         <td><a href="https://codefool0307.github.io/Javastudyer/#/menu?id=h2iiih2"/>7-9</td>
-        <td>dui</td>
+        <td>:pencil:</td>
         <td>:wrench:</td>
         <td>:wrench:</td>
         <td>:wrench:</td>
