@@ -1,7 +1,7 @@
 <!--
  * @Author: 孙浩然
  * @Date: 2020-04-08 16:14:01
- * @LastEditTime: 2020-04-15 22:46:32
+ * @LastEditTime: 2020-04-15 22:49:28
  * @LastEditors: Please set LastEditors
  * @Description: In User Settings Edit
  * @FilePath: \docsd:\04.github\Javastudyer\README.md
@@ -29,7 +29,7 @@
 
     * java二十一讲
 
-        * [1 数据类型](/JavaScholar/1.basics/1.java-basic/1-数据类型.md ) 
+        * [1 数据类型](https://github.com/codefool0307/JavaScholar/blob/master/1.basics/1.java-basic/1-%E6%95%B0%E6%8D%AE%E7%B1%BB%E5%9E%8B.md) 
         * [2 基础语法](/JavaScholar/1.basics/1.java-basic/2-基础语法.md)
         * [3 关键字](/JavaScholar/1.basics/1.java-basic/3-关键字.md)
         * [4 集合与数组](/JavaScholar/1.basics/1.java-basic/4-集合.md)
