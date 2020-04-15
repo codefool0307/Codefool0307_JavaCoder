@@ -9,10 +9,16 @@
     <link rel="stylesheet" href="//unpkg.com/docsify/lib/themes/vue.css">
 
 </head>
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.css">
-<script src="https://cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.min.js"></script>
+<link rel=“stylesheet” href="//unpkg.com/gitalk/dist/gitalk.css">
 <body>
-<div id="app"></div>
+		
+ <nav align=“right”>
+    <a href="#/">github地址</a>
+    <a href="#/home1">Java基础</a>
+    <a href="#/bar/a">bar/a</a>
+  </nav>
+<div id="app">正在加载中....</div>
+
 <script>
     window.$docsify = {
         name: 'Java工程师两万五千里征途',
@@ -38,16 +44,6 @@
             previousText: '上一部分',
             nextText: '下一部分',
         },
-		const gitalk = new Gitalk({
-			clientID: '119739a0c578ca6ab9e0',
-			clientSecret: 'ac8ce3563deb53a2baf6be3d14399ad5c897618b',
-			repo: 'https://github.com/codefool0307/discuss',
-			owner: 'codefool0307',
-			admin: 'codefool0307',
-			// facebook-like distraction free mode
-			distractionFreeMode: true
-		  })，
-		  gitalk.render('gitalk-container'),
         coverpage: true,
 		notFoundPage: true
     }
