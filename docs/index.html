@@ -13,7 +13,7 @@
 <body>
    <!--加载页面-->
    <div id="app">正在加载中....</div>
-   <a style="display:none" href="javascript:;" id="upToTop" title="回到顶部"></a>
+   
    
 		<!---必须要带#，否则访问不到-->>
  <nav align=“right”>
@@ -173,11 +173,11 @@
 	<script type="text/javascript">
 		window.title_id = window.location.hash.match(/#(.*?)([?]|$)/) ? window.location.hash.match(/#(.*?)([?]|$)/)[1] : '/';
 		const gitalk = new Gitalk({
-			clientID: 'fb8d2e2a61f769485c8b',
-			clientSecret: 'f038d906cc7d4d1f4961b2be48602fa06c9f072f',
-			repo: 'developer-note',	// //存储你评论 issue 的 Github 仓库名
-			owner: 'BrucePhoebus',
-			admin: ['BrucePhoebus'],	// 这个仓库的管理员
+			clientID: '119739a0c578ca6ab9e0',
+			clientSecret: 'ac8ce3563deb53a2baf6be3d14399ad5c897618b',
+			repo: 'discuss',	// //存储你评论 issue 的 Github 仓库名
+			owner: 'codefool0307',
+			admin: ['codefool0307'],	// 这个仓库的管理员
 			title: decodeURI(window.title_id),
 			distractionFreeMode: false,	// 是否添加全屏遮罩
 			id: md5(window.location.hash),	// 页面的唯一标识，gitalk 会根据这个标识自动创建的issue的标签,我们使用页面的相对路径作为标识
