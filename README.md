@@ -1,3 +1,11 @@
+<!--
+ * @Author: your name
+ * @Date: 2020-04-08 16:14:01
+ * @LastEditTime: 2020-04-15 22:00:29
+ * @LastEditors: your name
+ * @Description: In User Settings Edit
+ * @FilePath: \docsd:\04.github\Javastudyer\README.md
+ -->
 # <h1><font style="background: repeating-linear-gradient(red, yellow 10%, green 20%)">Java工程师必备技能</font></h1>
 <div align="center">
     <a href="https://github.com/codefool0307/Javastudyer/blob/master/authorintroducer.md"> <img src="https://badgen.net/badge/%e4%bd%9c%e8%80%85/shr?icon=github&color=4ab8a1"></a>
@@ -5,6 +13,8 @@
     <a href="https://codefool0307.github.io/Javastudyer/#/"> <img src="https://badgen.net/badge/%e9%98%85%e8%af%bb/codefool0307?icon=sourcegraph&color=4ab8a1"></a>
     <a href=""> <img src="https://badgen.net/badge/%e8%af%ad%e8%a8%80/Java?icon=rss&color=4ab8a1"></a>
 </div>
+
+国内路线：[笔记地址](https://gitee.com/compu/Javastudyer)
 
 <hr/>
 
