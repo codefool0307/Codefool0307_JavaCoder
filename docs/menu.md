@@ -7,442 +7,63 @@
 <div class="cover-main"><img width="1000px" src="icon/Java-1.jpg">
 
 # 笔记更新进度
-## <h2><b>I</b></h2>
+## <h2><b>I</b></h2>✏️🔧
 
-<table border='1' align="center" width="80" >
-    <tr>
-        <td></td>
-        <td>内容部分</td>
-        <td>数据结构与算法知识点</td>
-        <td>内容完成度</td>
-        <td>数据结构完成度</td>
-        <td>CSDN博客</td>
-        <td>程序上传</td>
-    </tr>
-    <tr>
-        <td>2020年4月11日</td>
-        <td><a href="#/1.basics/1.java-basic/1-%E6%95%B0%E6%8D%AE%E7%B1%BB%E5%9E%8B">数据类型</a>、<a href="#/1.basics/1.java-basic/2-%e5%9f%ba%e7%a1%80%e8%af%ad%e6%b3%95.md">基础语法</a>、<a href="/1.basics/1.java-basic/6-反射.md">反射</a></td>
-        <td>排序算法</td>
-        <td>[:pencil2:]</td>
-        <td>:wrench:</td>
-        <td>:wrench:</td>
-        <td>:wrench:</td>
-    </tr>
-    <tr>
-        <td>2020年4月12日</td>
-        <td><a href="#/1.basics/1.java-basic/3-关键字.md">关键字</a>、<a href="#/1.basics/1.java-basic/4-集合.md">集合/数组</a>、<a href="/1.basics/1.java-basic/23-源码分析.md">源码分析</td>
-        <td ><a href="https://codefool0307.github.io/Javastudyer/#/menu?id=h2iiih2">1-6</a></td>
-        <td>:pencil2:</td>
-        <td>:pencil2:</td>
-        <td>:wrench:</td>
-        <td>:wrench:</td>
-    </tr>
-    <tr>
-        <td>2020年4月13日</td>
-        <td><a href="#/1.basics/1.java-basic/5-IO.md">IO及NIO</a></td>
-        <td><a href="https://codefool0307.github.io/Javastudyer/#/menu?id=h2iiih2"/>7-9</td>
-        <td>:pencil:</td>
-        <td>:wrench:</td>
-        <td>:wrench:</td>
-        <td>:wrench:</td>
-    </tr>
-    <tr>
-        <td>2020年4月14日</td>
-        <td><a href="#/1.basics/1.java-basic/7-动态代理.md">动态代理、序列化、注解</td>
-        <td><a href="https://codefool0307.github.io/Javastudyer/#/menu?id=h2iiih2"/>10-12</td>
-        <td>:wrench:</td>
-        <td>:wrench:</td>
-        <td>:wrench:</td>
-        <td>:wrench:</td>
-    </tr>
-    <tr>
-        <td>2020年4月15日</td>
-        <td><a href="#/1.basics/1.java-basic/10-泛型.md">泛型</a>、<a href="#/1.basics/1.java-basic/11-单元测试.md">单元测试</a></td>
-        <td><a href="https://codefool0307.github.io/Javastudyer/#/menu?id=h2iiih2"/>13-16</td>
-        <td>:wrench:</td>
-        <td>:wrench:</td>
-        <td>:wrench:</td>
-        <td>:wrench:</td>
-    </tr>
-    <tr>
-        <td>2020年4月16日</td>
-        <td><a href="#/1.basics/1.java-basic/12-正则表达式.md">正则表达式</a>、<a href="#/1.basics/1.java-basic/13-API.md">API&amp;SPI</a></td>
-        <td><a href="https://codefool0307.github.io/Javastudyer/#/menu?id=h2iiih2"/>17-19</td>
-        <td>:wrench:</td>
-        <td>:wrench:</td>
-        <td>:wrench:</td>
-        <td>:wrench:</td>
-    </tr>
-    <tr>
-        <td>2020年4月17日</td>
-        <td><a href="#/1.basics/1.java-basic/14-异常.md">异常</a>、<a href="#/1.basics/1.java-basic/15-流.md">流</a></td>
-        <td><a href="https://codefool0307.github.io/Javastudyer/#/menu?id=h2iiih2"/>20-22</td>
-        <td>:wrench:</td>
-        <td>:wrench:</td>
-        <td>:wrench:</td>
-        <td>:wrench:</td>
-    </tr>
-    <tr>
-        <td>2020年4月18日</td>
-        <td><a href="#/1.basics/1.java-basic/16-编码方式.md">编码方式</a>、<a href="#/1.basics/1.java-basic/17-语法糖.md">语法糖</a>、<a href="#/1.basics/1.java-basic/18-网络编程.md">网络编程</a></td>
-        <td><a href="https://codefool0307.github.io/Javastudyer/#/menu?id=h2iiih2"/>23-25</td>
-        <td>:wrench:</td>
-        <td>:wrench:</td>
-        <td>:wrench:</td>
-        <td>:wrench:</td>
-    </tr>
-    <tr>
-        <td>2020年4月19日</td>
-        <td><a href="#/1.basics/1.java-basic/22-新特性.md">java新特性</a>、<a href="#/1.basics/1.java-basic/18-函数式编程.md">函数式编程</a>、<a href="#/1.basics/1.java-basic/19-方法引用.md">方法引用</a></td>
-        <td><a href="https://codefool0307.github.io/Javastudyer/#/menu?id=h2iiih2"/>26-28</td>
-        <td>:wrench:</td>
-        <td>:wrench:</td>
-        <td>:wrench:</td>
-        <td>:wrench:</td>
-    </tr>
-    <tr>
-        <td>2020年4月20日</td>
-        <td><a href="#/1.basics/1.java-basic/21-常用类.md">常用类</td>
-        <td><a href="https://codefool0307.github.io/Javastudyer/#/menu?id=h2iiih2"/>29-31</td>
-        <td>:wrench:</td>
-        <td>:wrench:</td>
-        <td>:wrench:</td>
-        <td>:wrench:</td>
-    </tr>
-    <tr>
-        <td>2020年4月21日</td>
-        <td>JUC、并发\-1</td>
-        <td><a href="https://codefool0307.github.io/Javastudyer/#/menu?id=h2iiih2"/>32-34</td>
-        <td>:wrench:</td>
-        <td>:wrench:</td>
-        <td>:wrench:</td>
-        <td>:wrench:</td>
-    </tr>
-    <tr>
-        <td>2020年4月22日</td>
-        <td>并发\-2</td>
-        <td><a href="https://codefool0307.github.io/Javastudyer/#/menu?id=h2iiih2"/>35-37</td>
-        <td>:wrench:</td>
-        <td>:wrench:</td>
-        <td>:wrench:</td>
-        <td>:wrench:</td>
-    </tr>
-    <tr>
-        <td>2020年4月23日</td>
-        <td>JVM\-1</td>
-        <td><a href="https://codefool0307.github.io/Javastudyer/#/menu?id=h2iiih2"/>38-40</td>
-        <td>:wrench:</td>
-        <td>:wrench:</td>
-        <td>:wrench:</td>
-        <td>:wrench:</td>
-    </tr>
-    <tr>
-        <td>2020年4月24日</td>
-        <td>JVM\-2</td>
-        <td><a href="https://codefool0307.github.io/Javastudyer/#/menu?id=h2iiih2"/>41-43</td>
-        <td>:wrench:</td>
-        <td>:wrench:</td>
-        <td>:wrench:</td>
-        <td>:wrench:</td>
-    </tr>
-    <tr>
-        <td>2020年4月25日</td>
-        <td>TCP\-1</td>
-        <td><a href="https://codefool0307.github.io/Javastudyer/#/menu?id=h2iiih2"/>44-46</td>
-        <td>:wrench:</td>
-        <td>:wrench:</td>
-        <td>:wrench:</td>
-        <td>:wrench:</td>
-    </tr>
-    <tr>
-        <td>2020年4月26日</td>
-        <td>TCP\-2</td>
-        <td><a href="https://codefool0307.github.io/Javastudyer/#/menu?id=h2iiih2"/>47-49</td>
-        <td>:wrench:</td>
-        <td>:wrench:</td>
-        <td>:wrench:</td>
-        <td>:wrench:</td>
-    </tr>
-    <tr>
-        <td>2020年4月27日</td>
-        <td>TCP\-3</td>
-        <td><a href="https://codefool0307.github.io/Javastudyer/#/menu?id=h2iiih2"/>50-52</td>
-        <td>:wrench:</td>
-        <td>:wrench:</td>
-        <td>:wrench:</td>
-        <td>:wrench:</td>
-    </tr>
-    <tr>
-        <td>2020年4月28日</td>
-        <td>数据库MySQL\-1</td>
-        <td><a href="https://codefool0307.github.io/Javastudyer/#/menu?id=h2iiih2"/>53-55</td>
-        <td>:wrench:</td>
-        <td>:wrench:</td>
-        <td>:wrench:</td>
-        <td>:wrench:</td>
-    </tr>
-    <tr>
-        <td>2020年4月29日</td>
-        <td>数据库MySQL\-2</td>
-        <td><a href="https://codefool0307.github.io/Javastudyer/#/menu?id=h2iiih2"/>56-58</td>
-        <td>:wrench:</td>
-        <td>:wrench:</td>
-        <td>:wrench:</td>
-        <td>:wrench:</td>
-    </tr>
-    <tr>
-        <td>2020年4月30日</td>
-        <td>数据库MySQL\-3</td>
-        <td><a href="https://codefool0307.github.io/Javastudyer/#/menu?id=h2iiih2"/>59-61</td>
-        <td>:wrench:</td>
-        <td>:wrench:</td>
-        <td>:wrench:</td>
-        <td>:wrench:</td>
-    </tr>
-    <tr>
-        <td>2020年5月1日</td>
-        <td>数据库MySQL\-4</td>
-        <td><a href="https://codefool0307.github.io/Javastudyer/#/menu?id=h2iiih2"/>62-64</td>
-        <td>:wrench:</td>
-        <td>:wrench:</td>
-        <td>:wrench:</td>
-        <td>:wrench:</td>
-    </tr>
-    <tr>
-        <td>2020年5月2日</td>
-        <td>redis\-1</td>
-        <td><a href="https://codefool0307.github.io/Javastudyer/#/menu?id=h2iiih2"/>65-67</td>
-        <td>:wrench:</td>
-        <td>:wrench:</td>
-        <td>:wrench:</td>
-        <td>:wrench:</td>
-    </tr>
-    <tr>
-        <td>2020年5月3日</td>
-        <td>redis\-2</td>
-        <td><a href="https://codefool0307.github.io/Javastudyer/#/menu?id=h2iiih2"/>68-70</td>
-        <td>:wrench:</td>
-        <td>:wrench:</td>
-        <td>:wrench:</td>
-        <td>:wrench:</td>
-    </tr>
-    <tr>
-        <td>2020年5月4日</td>
-        <td>JDBC\-1</td>
-        <td><a href="https://codefool0307.github.io/Javastudyer/#/menu?id=h2iiih2"/>71-73</td>
-        <td>:wrench:</td>
-        <td>:wrench:</td>
-        <td>:wrench:</td>
-        <td>:wrench:</td>
-    </tr>
-    <tr>
-        <td>2020年5月5日</td>
-        <td>JDBC\-2</td>
-        <td><a href="https://codefool0307.github.io/Javastudyer/#/menu?id=h2iiih2"/>74-76</td>
-        <td>:wrench:</td>
-        <td>:wrench:</td>
-        <td>:wrench:</td>
-        <td>:wrench:</td>
-    </tr>
-    <tr>
-        <td>2020年5月6日</td>
-        <td>Spring\-1</td>
-        <td><a href="https://codefool0307.github.io/Javastudyer/#/menu?id=h2iiih2"/>77-79</td>
-        <td>:wrench:</td>
-        <td>:wrench:</td>
-        <td>:wrench:</td>
-        <td>:wrench:</td>
-    </tr>
-    <tr>
-        <td>2020年5月7日</td>
-        <td>Spring\-2</td>
-        <td><a href="https://codefool0307.github.io/Javastudyer/#/menu?id=h2iiih2"/>80-82</td>
-        <td>:wrench:</td>
-        <td>:wrench:</td>
-        <td>:wrench:</td>
-        <td>:wrench:</td>
-    </tr>
-    <tr>
-        <td>2020年5月8日</td>
-        <td>SpringMVC\-1</td>
-        <td><a href="https://codefool0307.github.io/Javastudyer/#/menu?id=h2iiih2"/>83-85</td>
-        <td>:wrench:</td>
-        <td>:wrench:</td>
-        <td>:wrench:</td>
-        <td>:wrench:</td>
-    </tr>
-    <tr>
-        <td>2020年5月9日</td>
-        <td>SpringMVC\-2</td>
-        <td><a href="https://codefool0307.github.io/Javastudyer/#/menu?id=h2iiih2"/>86-88</td>
-        <td>:wrench:</td>
-        <td>:wrench:</td>
-        <td>:wrench:</td>
-        <td>:wrench:</td>
-    </tr>
-    <tr>
-        <td>2020年5月10日</td>
-        <td>MyBatis\-1</td>
-        <td><a href="https://codefool0307.github.io/Javastudyer/#/menu?id=h2iiih2"/>89-91</td>
-        <td>:wrench:</td>
-        <td>:wrench:</td>
-        <td>:wrench:</td>
-        <td>:wrench:</td>
-    </tr>
-    <tr>
-        <td>2020年5月11日</td>
-        <td>MyBatis\-2</td>
-        <td><a href="https://codefool0307.github.io/Javastudyer/#/menu?id=h2iiih2"/>92-94</td>
-        <td>:wrench:</td>
-        <td>:wrench:</td>
-        <td>:wrench:</td>
-        <td>:wrench:</td>
-    </tr>
-    <tr>
-        <td>2020年5月12日</td>
-        <td>MyBatis\-3</td>
-        <td><a href="https://codefool0307.github.io/Javastudyer/#/menu?id=h2iiih2"/>95-97</td>
-        <td>:wrench:</td>
-        <td>:wrench:</td>
-        <td>:wrench:</td>
-        <td>:wrench:</td>
-    </tr>
-    <tr>
-        <td>2020年5月13日</td>
-        <td>SpringBoot\-1</td>
-        <td><a href="https://codefool0307.github.io/Javastudyer/#/menu?id=h2iiih2"/>98-100</td>
-        <td>:wrench:</td>
-        <td>:wrench:</td>
-        <td>:wrench:</td>
-        <td>:wrench:</td>
-    </tr>
-    <tr>
-        <td>2020年5月14日</td>
-        <td>SpringBoot\-2</td>
-        <td><a href="https://codefool0307.github.io/Javastudyer/#/menu?id=h2iiih2"/>101-103</td>
-        <td>:wrench:</td>
-        <td>:wrench:</td>
-        <td>:wrench:</td>
-        <td>:wrench:</td>
-    </tr>
-    <tr>
-        <td>2020年5月15日</td>
-        <td>SpringBoot\-3</td>
-        <td><a href="https://codefool0307.github.io/Javastudyer/#/menu?id=h2iiih2"/>104-106</td>
-        <td>:wrench:</td>
-        <td>:wrench:</td>
-        <td>:wrench:</td>
-        <td>:wrench:</td>
-    </tr>
-    <tr>
-        <td>2020年5月16日</td>
-        <td>Spring注解\-1</td>
-        <td><a href="https://codefool0307.github.io/Javastudyer/#/menu?id=h2iiih2"/>107-109</td>
-        <td>:wrench:</td>
-        <td>:wrench:</td>
-        <td>:wrench:</td>
-        <td>:wrench:</td>
-    </tr>
-    <tr>
-        <td>2020年5月17日</td>
-        <td>Spring注解\-2</td>
-        <td><a href="https://codefool0307.github.io/Javastudyer/#/menu?id=h2iiih2"/>110-112</td>
-        <td>:wrench:</td>
-        <td>:wrench:</td>
-        <td>:wrench:</td>
-        <td>:wrench:</td>
-    </tr>
-    <tr>
-        <td>2020年5月18日</td>
-        <td>项目二众筹\+maven</td>
-        <td><a href="https://codefool0307.github.io/Javastudyer/#/menu?id=h2iiih2"/>113-115</td>
-        <td>:wrench:</td>
-        <td>:wrench:</td>
-        <td>:wrench:</td>
-        <td>:wrench:</td>
-    </tr>
-    <tr>
-        <td>2020年5月19日</td>
-        <td>项目二众筹\+ngnix</td>
-        <td><a href="https://codefool0307.github.io/Javastudyer/#/menu?id=h2iiih2"/>116-118</td>
-        <td>:wrench:</td>
-        <td>:wrench:</td>
-        <td>:wrench:</td>
-        <td>:wrench:</td>
-    </tr>
-    <tr>
-        <td>2020年5月20日</td>
-        <td></td>
-        <td><a href="https://codefool0307.github.io/Javastudyer/#/menu?id=h2iiih2"/>119-121</td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-    </tr>
-    <tr>
-        <td>2020年5月21日</td>
-        <td></td>
-        <td><a href="https://codefool0307.github.io/Javastudyer/#/menu?id=h2iiih2"/>122-124</td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-    </tr>
-    <tr>
-        <td>2020年5月22日</td>
-        <td></td>
-        <td><a href="https://codefool0307.github.io/Javastudyer/#/menu?id=h2iiih2"/>125-127</td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-    </tr>
-    <tr>
-        <td>2020年5月23日</td>
-        <td></td>
-        <td><a href="https://codefool0307.github.io/Javastudyer/#/menu?id=h2iiih2"/>128-130</td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-    </tr>
-    <tr>
-        <td>2020年5月24日</td>
-        <td></td>
-        <td><a href="https://codefool0307.github.io/Javastudyer/#/menu?id=h2iiih2"/>131-132</td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-    </tr>
-    <tr>
-        <td>2020年5月25日</td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-    </tr>
-    <tr>
-        <td>2020年5月26日</td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-    </tr>
-    <tr>
-        <td>2020年5月27日</td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-    </tr>
-</table>
+|            | 内容部分               | 完成度 | 数据结构与算法知识点 | 完成度 |
+|------------|--------------------|-----|------------|-----|
+| 2020年4月11日 | 数据类型、基础语法、反射       | ✏️    | 排序算法       | ✏️    |
+| 2020年4月12日 | 关键字、集合/数组、源码分析     | ✏️    | 1-6       |  ✏️   |
+| 2020年4月13日 | IO及NIO             | ✏️    | 7-9       | ✏️    |
+| 2020年4月14日 | 动态代理、序列化、注解        |     | 10-12     | ✏️    |
+| 2020年4月15日 | 泛型、单元测试            |✏️     | 13-16     |     |
+| 2020年4月16日 | 正则表达式、API&SPI      |     | 17-19     |     |
+| 2020年4月17日 | 异常、流               |     | 20-22     |     |
+| 2020年4月18日 | 编码方式、语法糖、网络编程      |     | 23-25     |     |
+| 2020年4月19日 | java新特性、函数式编程、方法引用 |     | 26-28     |     |
+| 2020年4月20日 | 常用类                |     | 29-31     |     |
+| 2020年4月21日 | JUC、并发\-1          |     | 32\-34     |     |
+| 2020年4月22日 | 并发\-2              |     | 35\-37     |     |
+| 2020年4月23日 | JVM\-1             |     | 38\-40     |     |
+| 2020年4月24日 | JVM\-2             |     | 41\-43     |     |
+| 2020年4月25日 | TCP\-1             |     | 44\-46     |     |
+| 2020年4月26日 | TCP\-2             |     | 47\-49     |     |
+| 2020年4月27日 | TCP\-3             |     | 50\-52     |     |
+| 2020年4月28日 | 数据库MySQL\-1        |     | 53\-55     |     |
+| 2020年4月29日 | 数据库MySQL\-2        |     | 56\-58     |     |
+| 2020年4月30日 | 数据库MySQL\-3        |     | 59\-61     |     |
+| 2020年5月1日  | 数据库MySQL\-4        |     | 62\-64     |     |
+| 2020年5月2日  | redis\-1           |     | 65\-67     |     |
+| 2020年5月3日  | redis\-2           |     | 68\-70     |     |
+| 2020年5月4日  | JDBC\-1            |     | 71\-73     |     |
+| 2020年5月5日  | JDBC\-2            |     | 74\-76     |     |
+| 2020年5月6日  | Spring\-1          |     | 77\-79     |     |
+| 2020年5月7日  | Spring\-2          |     | 80\-82     |     |
+| 2020年5月8日  | SpringMVC\-1       |     | 83\-85     |     |
+| 2020年5月9日  | SpringMVC\-2       |     | 86\-88     |     |
+| 2020年5月10日 | MyBatis\-1         |     | 89\-91     |     |
+| 2020年5月11日 | MyBatis\-2         |     | 92\-94     |     |
+| 2020年5月12日 | MyBatis\-3         |     | 95\-97     |     |
+| 2020年5月13日 | SpringBoot\-1      |     | 98\-100    |     |
+| 2020年5月14日 | SpringBoot\-2      |     | 101\-103   |     |
+| 2020年5月15日 | SpringBoot\-3      |     | 104\-106   |     |
+| 2020年5月16日 | Spring注解\-1        |     | 107\-109   |     |
+| 2020年5月17日 | Spring注解\-2        |     | 110\-112   |     |
+| 2020年5月18日 | 项目二众筹\+maven       |     | 113\-115   |     |
+| 2020年5月19日 | 项目二众筹\+ngnix       |     | 116\-118   |     |
+| 2020年5月20日 |                    |     | 119\-121   |     |
+| 2020年5月21日 |                    |     | 122\-124   |     |
+| 2020年5月22日 |                    |     | 125\-127   |     |
+| 2020年5月23日 |                    |     | 128\-130   |     |
+| 2020年5月24日 |                    |     | 131\-132   |     |
+| 2020年5月25日 |                    |     |            |     |
+| 2020年5月26日 |                    |     |            |     |
+| 2020年5月27日 |                    |     |            |     |
+| 2020年5月28日 |                    |     |            |     |
+| 2020年5月29日 |                    |     |            |     |
+| 2020年5月30日 |                    |     |            |     |
+| 2020年5月31日 |                    |     |            |     |
+
+
 
 
 

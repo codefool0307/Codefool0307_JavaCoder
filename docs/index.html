@@ -9,6 +9,22 @@
     <link rel="stylesheet" href="//unpkg.com/docsify/lib/themes/vue.css">
     <link rel="stylesheet" href="//cdn.bootcss.com/gitalk/1.5.0/gitalk.min.css">
     <script src="//cdn.bootcss.com/gitalk/1.5.0/gitalk.min.js"></script>
+    <style>
+		#upToTop {
+			width: 40px;
+			height: 40px;
+			position: fixed;
+			left: 95%;
+			bottom: 30px;
+			background: url(/icon/upToTop.png) no-repeat left top;
+			/* margin-left: 610px; */
+		}
+
+		#upToTop:hover {
+			background: url(/icon/upToTop.png) no-repeat left -40px;
+		}
+    </style>
+    
 </head>
 <body>
    <!--加载页面-->
@@ -137,8 +153,6 @@
     }
 </script>
 
-
-
 <script>
     window.$docsify = {
         name: 'Java工程师两万五千里征途',
@@ -148,13 +162,13 @@
         subMaxLevel: 7,
         autoHeader: true,
 		 disqus: 'shortname',
-		notFoundPage: 'my404.md',
+		notFoundPage: '_404.md',
         search: {
             paths: 'auto',
             placeholder: '🔍 搜索 ',
-            noData: '哎呀，大哥，大姐，我还没有写这一块的内容！ ',
+            noData: '😞哎呀，大哥，大姐，我还没有写这一块的内容！ ',
             // Headline depth, 1 - 6
-            depth: 7
+            depth: 6
         },
         formatUpdated: '{MM}/{DD} {HH}:{mm}',
         copyCode: {
@@ -166,8 +180,7 @@
             previousText: '上一部分',
             nextText: '下一部分',
         },
-        coverpage: true,
-		notFoundPage: true,
+        
     plugins: [
 				function (hook, vm) {
 					hook.doneEach(function () {
@@ -178,7 +191,10 @@
 						console.log(decodeURI(window.title_id));
 					})
 				}
-			]
+			],
+        
+        coverpage: true,
+        notFoundPage: true
         }
 </script>
 <script type="text/javascript" src="public/docsify.min.js" ></script>
@@ -189,9 +205,7 @@
 	<!--
 	<script type="text/javascript" src="public/plugins/components/jquery3.2.1.js"></script>
     -->
-    <!---->
-    <script src="//unpkg.com/docsify/lib/docsify.min.js"></script>
-	<!--搜索插件-->
+    <!--搜索插件-->
     <script async defer type="text/javascript" src="public/plugins/search.min.js"></script>
     <!---->
 	<script async defer type="text/javascript" src="public/plugins/ga.min.js"></script>
@@ -199,8 +213,6 @@
 	<script async defer type="text/javascript" src="public/plugins/components/prism-javascript.min.js"></script>
 	<script async defer type="text/javascript" src="public/plugins/components/prism-bash.min.js"></script>
 	<script async type="text/javascript" src="public/plugins/components/prism-markdown.min.js"></script>
-    <!--分页插件-->
-    <script src="//unpkg.com/docsify-pagination/dist/docsify-pagination.min.js"></script>
 	<!-- 引入图片缩放 -->
 	<script type="text/javascript" src="public/plugins/components/zoom-image-cdn.js"></script>
 	<!-- 复制到剪切板 -->
@@ -209,7 +221,8 @@
     <script async defer type="text/javascript" src="public/plugins/components/love-click.min.js"></script>
     <!--代码块复制插件-->
     <script src="//unpkg.com/docsify-copy-code"></script>
-    
+    <!--统计访问量插件-->
+    <script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
 	<!-- MD5加密 -->
 	<script type="text/javascript" src="public/plugins/components/md5.min.js"></script>
 
@@ -230,7 +243,7 @@
 	</script>
 	<script type="text/javascript" src="public/plugins/components/docsify.gitalk.js"></script>
 
-	<script async defer type="text/javascript">
+	<!--<script async defer type="text/javascript">
 		// 百度统计：统计网站流量
 		var _hmt = _hmt || [];
 		(function () {
@@ -239,6 +252,6 @@
 			var s = document.getElementsByTagName("script")[0];
 			s.parentNode.insertBefore(hm, s);
 		})();
-	</script>
+	</script>-->
 </body>
 </html>
