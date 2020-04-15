@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Demo20041501Generic01_herint01.iml" filepath="$PROJECT_DIR$/Demo20041501Generic01_herint01.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../Demo20041502Generic02_tongpeifu/Demo20041502Generic02_tongpeifu.iml" filepath="$PROJECT_DIR$/../Demo20041502Generic02_tongpeifu/Demo20041502Generic02_tongpeifu.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../Demo20041502Generic03_class/Demo20041502Generic03_class.iml" filepath="$PROJECT_DIR$/../Demo20041502Generic03_class/Demo20041502Generic03_class.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../Demo20041502Generic04_Method/Demo20041502Generic04_Method.iml" filepath="$PROJECT_DIR$/../Demo20041502Generic04_Method/Demo20041502Generic04_Method.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../Demo20041502Generic05_Interface01/Demo20041502Generic05_Interface01.iml" filepath="$PROJECT_DIR$/../Demo20041502Generic05_Interface01/Demo20041502Generic05_Interface01.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../Demo20041502Generic06_Interface02/Demo20041502Generic06_Interface02.iml" filepath="$PROJECT_DIR$/../Demo20041502Generic06_Interface02/Demo20041502Generic06_Interface02.iml" />
+    </modules>
+  </component>
+</project>
