@@ -1,8 +1,8 @@
 <!--
  * @Author: your name
  * @Date: 2020-04-08 16:14:01
- * @LastEditTime: 2020-04-15 22:00:29
- * @LastEditors: your name
+ * @LastEditTime: 2020-04-15 22:21:54
+ * @LastEditors: Please set LastEditors
  * @Description: In User Settings Edit
  * @FilePath: \docsd:\04.github\Javastudyer\README.md
  -->
@@ -14,7 +14,8 @@
     <a href=""> <img src="https://badgen.net/badge/%e8%af%ad%e8%a8%80/Java?icon=rss&color=4ab8a1"></a>
 </div>
 
-国内路线：[笔记地址](https://gitee.com/compu/Javastudyer)
+国 内 路线：[笔记地址](https://compu.gitee.io/docsifycodefool0307/#/menu)
+github路线：[笔记地址](https://codefool0307.github.io/docsifycodefool0307/#/)
 
 <hr/>
 
