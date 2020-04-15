@@ -9,7 +9,8 @@
     <link rel="stylesheet" href="//unpkg.com/docsify/lib/themes/vue.css">
 
 </head>
-<link rel="stylesheet" href="//unpkg.com/gitalk/dist/gitalk.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.css">
+<script src="https://cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.min.js"></script>
 <body>
 <div id="app"></div>
 <script>
@@ -37,6 +38,16 @@
             previousText: '上一部分',
             nextText: '下一部分',
         },
+		const gitalk = new Gitalk({
+			clientID: '119739a0c578ca6ab9e0',
+			clientSecret: 'ac8ce3563deb53a2baf6be3d14399ad5c897618b',
+			repo: 'https://github.com/codefool0307/discuss',
+			owner: 'codefool0307',
+			admin: 'codefool0307',
+			// facebook-like distraction free mode
+			distractionFreeMode: true
+		  })，
+		  gitalk.render('gitalk-container'),
         coverpage: true,
 		notFoundPage: true
     }
