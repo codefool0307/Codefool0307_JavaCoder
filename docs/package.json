@@ -1,0 +1,22 @@
+{
+  "name": "learn",
+  "version": "1.0.0",
+  "author": "phoebus",
+  "description": "development exercise",
+  "scripts": {
+    "start": "docsify serve --open",
+    "summary": "book sm"
+  },
+  "dependencies": {
+    "docsify": "^4.9.4",
+    "docsify-cli": "^4.3.0"
+  },
+  "keywords": [
+    "develop",
+    "learn"
+  ],
+  "devDependencies": {
+    "faraday": "^1.12.0",
+    "gitbook-summary": "^1.2.2"
+  }
+}

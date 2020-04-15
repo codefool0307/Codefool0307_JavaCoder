@@ -7,22 +7,100 @@
     <meta name="description" content="Description">
     <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <link rel="stylesheet" href="//unpkg.com/docsify/lib/themes/vue.css">
-
+    <link rel="stylesheet" href="//cdn.bootcss.com/gitalk/1.5.0/gitalk.min.css">
+    <script src="//cdn.bootcss.com/gitalk/1.5.0/gitalk.min.js"></script>
 </head>
-<link rel="stylesheet" href="//cdn.bootcss.com/gitalk/1.5.0/gitalk.min.css">
-<script src="//cdn.bootcss.com/gitalk/1.5.0/gitalk.min.js"></script>
-
-
 <body>
+   <!--加载页面-->
+   <div id="app">正在加载中....</div>
+   <a style="display:none" href="javascript:;" id="upToTop" title="回到顶部"></a>
+   
 		<!---必须要带#，否则访问不到-->>
  <nav align=“right”>
     <a href="#/README.md">个人简介</a>
     <a href="#/home1">Java基础</a>
     <a href="#/bar/a">bar/a</a>
   </nav>
-<div id="app">正在加载中....</div>
-<!---评论区使用-->>
+
+<!---评论区使用-->
 <div id="gitalk-container"></div>
+
+<script type="text/javascript">
+    window.onload = function () {
+        var toToBtn = document.getElementById("upToTop");
+        var timer = null;
+
+        window.onscroll = function () {
+            // 滚动条到底部的公式为：scrollTop + clientHeight == scrollHeight
+            if (getScrollTop() + getClientHeight() >= getScrollHeight() - 50) {
+                toToBtn.style.display = "block";
+            } else {
+                toToBtn.style.display = "none";
+            }
+        }
+
+        toToBtn.onclick = function () {
+            if (getScrollHeight() - getClientHeight() > 0) {
+                timer = setInterval(function () {
+                    var backTop = getScrollTop();
+                    //速度操作  减速
+                    var speedTop = backTop / 5;
+                    // 修改滚动条位置
+                    setScrollTop(backTop - speedTop);
+                    //高度不断减少
+                    if (backTop == 0) {  //滑动到顶端
+                        clearInterval(timer);  //清除计时器
+                    }
+                }, 30);
+            }
+        }
+    }
+
+    // 获取滚动条在Y轴上的滚动距离
+    function getScrollTop() {
+        var scroll_top = 0;
+        if (document.documentElement && document.documentElement.scrollTop) {
+            scroll_top = document.documentElement.scrollTop;
+        }
+        else if (document.body) {
+            scroll_top = document.body.scrollTop;
+        }
+        return scroll_top;
+    }
+    // 设置滚动条
+    function setScrollTop(newVal) {
+        if (document.documentElement && document.documentElement.scrollTop) {
+            document.documentElement.scrollTop = newVal;
+        }
+        else if (document.body) {
+            document.body.scrollTop = newVal;
+        }
+    }
+    // 获取内容可视区域
+    function getClientHeight() {
+        var windowHeight = 0;
+        if (document.compatMode == "CSS1Compat") {
+            windowHeight = document.documentElement.clientHeight;
+        } else {
+            windowHeight = document.body.clientHeight;
+        }
+        return windowHeight;
+    }
+    // 获取内容可视区域的高度加上溢出（滚动）的距离
+    function getScrollHeight() {
+        var scrollHeight = 0, bodyScrollHeight = 0, documentScrollHeight = 0;
+        if (document.body) {
+            bodyScrollHeight = document.body.scrollHeight;
+        }
+        if (document.documentElement) {
+            documentScrollHeight = document.documentElement.scrollHeight;
+        }
+        scrollHeight = (bodyScrollHeight - documentScrollHeight > 0) ? bodyScrollHeight : documentScrollHeight;
+        return scrollHeight;
+    }
+</script>
+
+
 
 <script>
     window.$docsify = {
@@ -40,6 +118,7 @@
             // Headline depth, 1 - 6
             depth: 7
         },
+        formatUpdated: '{MM}/{DD} {HH}:{mm}',
         copyCode: {
             buttonText : '复制',
             errorText  : 'Error',
@@ -50,40 +129,72 @@
             nextText: '下一部分',
         },
         coverpage: true,
-		notFoundPage: true
-    }
-    const gitalk = new Gitalk({
-			clientID: '119739a0c578ca6ab9e0',
-			clientSecret: 'ac8ce3563deb53a2baf6be3d14399ad5c897618b',
-			repo: 'https://github.com/codefool0307/discuss',
-			owner: 'codefool0307',
-			admin: ['codefool0307'],
-            distractionFreeMode: true,
-            createIssueManually:true,
-            id: location.pathname,
-		  })
-         
-         
-          gitalk.render('gitalk-container');
-
+		notFoundPage: true,
+    plugins: [
+				function (hook, vm) {
+					hook.doneEach(function () {
+						if (window.title_id !== window.location.hash.match(/#(.*?)([?]|$)/)[1]) {
+							window.reload;
+						}
+						window.title_id = window.location.hash.match(/#(.*?)([?]|$)/)[1];
+						console.log(decodeURI(window.title_id));
+					})
+				}
+			]
+        }
 </script>
+<script type="text/javascript" src="public/docsify.min.js" ></script>
 
-<script src="//unpkg.com/docsify/lib/docsify.min.js"></script>
-<!--代码块复制插件-->
-<script src="//unpkg.com/docsify-copy-code"></script>
-<!-- 图片缩放插件 -->
-<script src="https://cyc-1256109796.cos.ap-guangzhou.myqcloud.com/zoom-image.min.js"></script>
-<!--搜索插件-->
-<script src="https://cdn.bootcss.com/docsify/4.5.9/plugins/search.min.js"></script>
-<!--语法高亮插件-->
-<script src="//unpkg.com/prismjs/components/prism-java.min.js"></script>
-<script src="//unpkg.com/prismjs/components/prism-bash.min.js"></script>
-<!--分页插件-->
-<script src="//unpkg.com/docsify-pagination/dist/docsify-pagination.min.js"></script>
-<!--统计访问量插件-->
-<script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
-<!--评论-->
-<script src="//unpkg.com/docsify/lib/plugins/disqus.min.js"></script>
 
+<!-- gitalk评论插件 -->
+
+	<!--
+	<script type="text/javascript" src="public/plugins/components/jquery3.2.1.js"></script>
+	-->
+	
+	<script async defer type="text/javascript" src="public/plugins/search.min.js"></script>
+	<script async defer type="text/javascript" src="public/plugins/ga.min.js"></script>
+	<!-- 语言高亮 -->
+	<script async defer type="text/javascript" src="public/plugins/components/prism-javascript.min.js"></script>
+	<script async defer type="text/javascript" src="public/plugins/components/prism-bash.min.js"></script>
+	<script async type="text/javascript" src="public/plugins/components/prism-markdown.min.js"></script>
+
+	<!-- 引入图片缩放 -->
+	<script type="text/javascript" src="public/plugins/components/zoom-image-cdn.js"></script>
+	<!-- 复制到剪切板 -->
+	<script type="text/javascript" src="public/plugins/docsify-copy-code.min.js"></script>
+	<!-- 点击红心效果 -->
+	<script async defer type="text/javascript" src="public/plugins/components/love-click.min.js"></script>
+
+	<!-- MD5加密 -->
+	<script type="text/javascript" src="public/plugins/components/md5.min.js"></script>
+
+	<script type="text/javascript" src="public/plugins/components/gitalk.min.js"></script>
+	<script type="text/javascript">
+		window.title_id = window.location.hash.match(/#(.*?)([?]|$)/) ? window.location.hash.match(/#(.*?)([?]|$)/)[1] : '/';
+		const gitalk = new Gitalk({
+			clientID: 'fb8d2e2a61f769485c8b',
+			clientSecret: 'f038d906cc7d4d1f4961b2be48602fa06c9f072f',
+			repo: 'developer-note',	// //存储你评论 issue 的 Github 仓库名
+			owner: 'BrucePhoebus',
+			admin: ['BrucePhoebus'],	// 这个仓库的管理员
+			title: decodeURI(window.title_id),
+			distractionFreeMode: false,	// 是否添加全屏遮罩
+			id: md5(window.location.hash),	// 页面的唯一标识，gitalk 会根据这个标识自动创建的issue的标签,我们使用页面的相对路径作为标识
+			enableHotKey: true,	// 提交评论快捷键(cmd/ctrl + enter) 
+		})
+	</script>
+	<script type="text/javascript" src="public/plugins/components/docsify.gitalk.js"></script>
+
+	<script async defer type="text/javascript">
+		// 百度统计：统计网站流量
+		var _hmt = _hmt || [];
+		(function () {
+			var hm = document.createElement("script");
+			hm.src = "https://hm.baidu.com/hm.js?2bfeda98cf7f1a62882e4a538466e5d5";
+			var s = document.getElementsByTagName("script")[0];
+			s.parentNode.insertBefore(hm, s);
+		})();
+	</script>
 </body>
 </html>
