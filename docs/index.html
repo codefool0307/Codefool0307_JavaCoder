@@ -223,6 +223,11 @@
         notFoundPage: true,
 		notFoundPage: '_404.md',
         homepage: 'README.md',
+        copyCode: {
+            buttonText : '复制',
+            errorText  : 'Error',
+            successText: 'OK!'
+        },
         //统计字数
         count:{
                 countable:true,
@@ -242,11 +247,6 @@
                     nextText: '下一部分',
                     },
         formatUpdated: '{MM}/{DD} {HH}:{mm}',
-        copyCode: {
-            buttonText : '复制',
-            errorText  : 'Error',
-            successText: 'OK!'
-        },
         plugins: [
         function (hook, vm) {
           hook.doneEach(function() {
