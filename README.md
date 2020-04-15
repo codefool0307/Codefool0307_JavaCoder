@@ -1,7 +1,7 @@
 <!--
  * @Author: your name
  * @Date: 2020-04-08 16:14:01
- * @LastEditTime: 2020-04-15 22:21:54
+ * @LastEditTime: 2020-04-15 22:31:10
  * @LastEditors: Please set LastEditors
  * @Description: In User Settings Edit
  * @FilePath: \docsd:\04.github\Javastudyer\README.md
@@ -10,12 +10,12 @@
 <div align="center">
     <a href="https://github.com/codefool0307/Javastudyer/blob/master/authorintroducer.md"> <img src="https://badgen.net/badge/%e4%bd%9c%e8%80%85/shr?icon=github&color=4ab8a1"></a>
     <a href=""> <img src="https://badgen.net/badge/%e7%89%88%e6%9c%ac/v1.0.0?icon=telegram&color=4ab8a1"></a>
-    <a href="https://codefool0307.github.io/Javastudyer/#/"> <img src="https://badgen.net/badge/%e9%98%85%e8%af%bb/codefool0307?icon=sourcegraph&color=4ab8a1"></a>
+    <a href="https://codefool0307.github.io/JavaScholar/#/"> <img src="https://badgen.net/badge/%e9%98%85%e8%af%bb/codefool0307?icon=sourcegraph&color=4ab8a1"></a>
     <a href=""> <img src="https://badgen.net/badge/%e8%af%ad%e8%a8%80/Java?icon=rss&color=4ab8a1"></a>
 </div>
 
 国 内 路线：[笔记地址](https://compu.gitee.io/docsifycodefool0307/#/menu)
-github路线：[笔记地址](https://codefool0307.github.io/docsifycodefool0307/#/)
+github路线：[笔记地址](https://codefool0307.github.io/JavaScholar/#/)
 
 <hr/>
 
