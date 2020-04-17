@@ -4,6 +4,10 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/Demo20041702Throwable01_trycatchfianlly.iml" filepath="$PROJECT_DIR$/Demo20041702Throwable01_trycatchfianlly.iml" />
       <module fileurl="file://$PROJECT_DIR$/../Demo20041702Throwable02_DefineClass/Demo20041702Throwable02_DefineClass.iml" filepath="$PROJECT_DIR$/../Demo20041702Throwable02_DefineClass/Demo20041702Throwable02_DefineClass.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../../18-函数式编程/Demo20041703Function03_Consumer01/Demo20041703Function03_Consumer01.iml" filepath="$PROJECT_DIR$/../../18-函数式编程/Demo20041703Function03_Consumer01/Demo20041703Function03_Consumer01.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../../18-函数式编程/Demo20041703Functional01_Interface01/Demo20041703Functional01_Interface01.iml" filepath="$PROJECT_DIR$/../../18-函数式编程/Demo20041703Functional01_Interface01/Demo20041703Functional01_Interface01.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../../18-函数式编程/Demo20041703Functional02_Supplier01/Demo20041703Functional02_Supplier01.iml" filepath="$PROJECT_DIR$/../../18-函数式编程/Demo20041703Functional02_Supplier01/Demo20041703Functional02_Supplier01.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../../18-函数式编程/Demo20041703Functional04_Predicate01/Demo20041703Functional04_Predicate01.iml" filepath="$PROJECT_DIR$/../../18-函数式编程/Demo20041703Functional04_Predicate01/Demo20041703Functional04_Predicate01.iml" />
     </modules>
   </component>
 </project>
