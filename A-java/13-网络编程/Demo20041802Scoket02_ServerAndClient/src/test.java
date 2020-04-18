@@ -14,7 +14,7 @@ public class test {
         try {
             //1.创建Scoket
             socket = new Socket("127.0.0.1", 9989);
-            //2.打开链接到Scoket输入输出流
+            //2.打开链接到Scoket输出流
             os = socket.getOutputStream();
             //3.写数据
             os.write("大王让我来巡上".getBytes());
@@ -43,18 +43,19 @@ public class test {
         Socket accept =null;
         InputStream is =null;
         ByteArrayOutputStream bs =null;
-        //1.创建服务端ServerScoket
         try {
+            //1.创建服务端ServerScoket
             serverSocket = new ServerSocket(9989);
             //2.链接客户端的scoket
             accept = serverSocket.accept();
-            //3.获取输入流
+            //3.获取socket输入流
             is = accept.getInputStream();
             //读取输入流的数据
+            //输出汉字如果使用byte，可能造成乱码，原因下面阐述
             bs = new ByteArrayOutputStream();
             byte[] bytes = new byte[1024];
             int len=0;
-            while ((len=is.read())!=-1){
+            while ((len=is.read(bytes))!=-1){
                 bs.write(bytes,0,len);
             }
             System.out.println(bs.toString());
