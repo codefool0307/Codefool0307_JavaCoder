@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:util="http://www.springframework.org/schema/util"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd http://www.springframework.org/schema/util http://www.springframework.org/schema/util/spring-util.xsd">
+    <!-- 注册一个Person对象，Spring会自动创建这个Person对象 -->
+    <!--
+    一个bean标签可以注册一个组件（对象、类）
+    class：写要注册的组件的全类名
+    id：这个对象的唯一标示；
+    -->
+    <bean id="person01" class="com.codefool.bean.Person">
+        <!--使用property标签为Person对象的属性赋值
+           name="lastName"：指定属性名
+           value="张三"：为这个属性赋值
+       -->
+        <property name="name" value="张三"></property>
+        <property name="age" value="34"></property>
+        <property name="email" value="jkfhsaih@ifhlah"></property>
+        <property name="gender" value="男"></property>
+    </bean>
+      <!--实验二通过bean获取对象-->
+    <bean id="person02" class="com.codefool.bean.Person">
+        <property name="name" value="李四"></property>
+    </bean>
+
+    <!--实验三通过构造函数-->
+    <bean id="person03" class="com.codefool.bean.Person">
+        <constructor-arg name="name" value="小明" ></constructor-arg>
+        <constructor-arg name="age" value="20"></constructor-arg>
+        <constructor-arg name="email" value="ashfh2jfhd"></constructor-arg>
+        <constructor-arg name="gender" value="nan"></constructor-arg>
+    </bean>
+    <!--实验三补充1。如果出现，不展示name属性，必须要按照规定的顺序进行设置-->
+    <!--实验三补充2。如果出现，不展示name属性，必须要按照规定的顺序，可以通过index进行设置-->
+    <bean id="person04" class="com.codefool.bean.Person">
+        <constructor-arg value="小明" />
+        <constructor-arg value="nan" index="3"/>
+        <constructor-arg value="ashfh2jfhd"/>
+        <constructor-arg value="20" index="1"/>
+    </bean>
+    <!--实验三补充3。对于重载的问题，如何选择，可以通过type类型确定-->
+    <bean id="person05" class="com.codefool.bean.Person">
+        <constructor-arg value="小明" />
+        <constructor-arg value="20" type="java.lang.Integer"/>
+        <constructor-arg value="nan"/>
+    </bean>
+
+
+    <!--实验六\七：使用property-->
+    <bean id="person06" class="com.codefool.bean.Person" abstract="true">
+        <property name="name" value="张三"></property>
+        <property name="age" value="34"></property>
+        <property name="email" value="jkfhsaih@ifhlah"></property>
+        <property name="gender" value="男"></property>
+    </bean>
+    <bean id="person07" class="com.codefool.bean.Person" parent="person06">
+        <property name="name" value="李四"></property>
+    </bean>
+
+    <!--实验八：bean的依赖-->
+    <bean class="com.codefool.bean.Car" id="car" depends-on="person"/>
+    <bean  class="com.codefool.bean.Person" id="person"/>
+
+    <!--实验九：bean作用域-->
+    <bean class="com.codefool.bean.Car" id="car01" scope="prototype"/>
+
+    <!--实验五：bean工厂模式静态工厂-->
+    <bean class="com.codefool.factory.CarPlanefactory" id="car02" factory-method="carzao">
+        <constructor-arg value="dage"></constructor-arg>
+    </bean>
+
+    <!--实验五：bean工厂模式实例工厂-->
+       <!--第一步、创建对象-->
+    <bean class="com.codefool.factory.CarPlaneIntancefactory" id="carduiixng"/>
+    <!--第二步、应用-->
+    <bean class="com.codefool.bean.Car" id="car03"  factory-method="carzaozao"  factory-bean="carduiixng">
+        <constructor-arg value="erge"/>
+    </bean>
+
+    <!--实验五：bean工厂模式实例工厂-->
+    <bean class="com.codefool.factory.MyFactorybean" id="factory"/>
+
+</beans>

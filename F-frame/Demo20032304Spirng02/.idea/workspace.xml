@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="606359e2-dbf1-42f7-af97-8f052300b2f5" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1Zb0meHhS0uRbtaO2CgVndztQJV" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Demo20032503IOC18" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\02.program\Part06Frame\01_Spring\Demo20032503IOC18" />
+      <recent name="D:\02.program\Part06Frame\01_Spring\Demo20032503IOC18\src" />
+      <recent name="D:\02.program\Part06Frame\01_Spring\Demo20032503IOC15\lib" />
+      <recent name="D:\02.program\Part06Frame\01_Spring\Demo20032503IOC15" />
+      <recent name="D:\02.program\Part06Frame\01_Spring\Demo20032503IOC15\src" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="test" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\02.program\Part06Frame\01_Spring\Demo20032502SpringIOC03\src" />
+      <recent name="D:\02.program\Part06Frame\01_Spring\Demo20032502SpringIOC03\conf" />
+      <recent name="D:\02.program\Part06Frame\01_Spring\Demo20032304Spirngtest02\src" />
+      <recent name="D:\02.program\Part06Frame\01_Spring\Demo20032304Spirngtest02" />
+      <recent name="D:\02.program\Part06Frame\01_Spring\Demo20032304Spirngtest02\src\conf" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.IocTest.test18">
+    <configuration name="IocTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Demo20032304Spirngtest02" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.codefool0307.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.codefool0307.test" />
+      <option name="MAIN_CLASS_NAME" value="com.codefool0307.test.IocTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="IocTest.test12 (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Demo20032502SpringIOC03" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="codefool0307.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="codefool0307.test" />
+      <option name="MAIN_CLASS_NAME" value="codefool0307.test.IocTest" />
+      <option name="METHOD_NAME" value="test12" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="IocTest.test13" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Demo20032502SpringIOC03" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="codefool0307.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="codefool0307.test" />
+      <option name="MAIN_CLASS_NAME" value="codefool0307.test.IocTest" />
+      <option name="METHOD_NAME" value="test13" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="IocTest.test15" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Demo20032503IOC15" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.codefool0307.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.codefool0307.test" />
+      <option name="MAIN_CLASS_NAME" value="com.codefool0307.test.IocTest" />
+      <option name="METHOD_NAME" value="test15" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="IocTest.test18" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Demo20032503IOC18" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.codefool0307.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.codefool0307.test" />
+      <option name="MAIN_CLASS_NAME" value="com.codefool0307.test.IocTest" />
+      <option name="METHOD_NAME" value="test18" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.IocTest.test18" />
+        <item itemvalue="JUnit.IocTest.test15" />
+        <item itemvalue="JUnit.IocTest.test13" />
+        <item itemvalue="JUnit.IocTest.test12 (1)" />
+        <item itemvalue="JUnit.IocTest" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="606359e2-dbf1-42f7-af97-8f052300b2f5" name="Default Changelist" comment="" />
+      <created>1585092646435</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1585092646435</updated>
+      <workItem from="1585092648411" duration="15116000" />
+      <workItem from="1585124561308" duration="8086000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="361" y="51" key="#Project_Structure" timestamp="1585129011239">
+      <screen x="0" y="0" width="1536" height="783" />
+    </state>
+    <state x="361" y="51" key="#Project_Structure/0.0.1536.783@0.0.1536.783" timestamp="1585129011239" />
+    <state x="574" y="102" key="#com.intellij.ide.util.MemberChooser" timestamp="1585105958447">
+      <screen x="0" y="0" width="1536" height="783" />
+    </state>
+    <state x="574" y="102" key="#com.intellij.ide.util.MemberChooser/0.0.1536.783@0.0.1536.783" timestamp="1585105958447" />
+    <state x="573" y="317" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1585129711164">
+      <screen x="0" y="0" width="1536" height="783" />
+    </state>
+    <state x="573" y="317" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1536.783@0.0.1536.783" timestamp="1585129711164" />
+    <state x="549" y="133" key="FileChooserDialogImpl" timestamp="1585129667681">
+      <screen x="0" y="0" width="1536" height="783" />
+    </state>
+    <state x="549" y="133" key="FileChooserDialogImpl/0.0.1536.783@0.0.1536.783" timestamp="1585129667681" />
+    <state width="1493" height="451" key="GridCell.Tab.0.bottom" timestamp="1585138235108">
+      <screen x="0" y="0" width="1536" height="783" />
+    </state>
+    <state width="1493" height="451" key="GridCell.Tab.0.bottom/0.0.1536.783@0.0.1536.783" timestamp="1585138235108" />
+    <state width="1493" height="451" key="GridCell.Tab.0.center" timestamp="1585138235108">
+      <screen x="0" y="0" width="1536" height="783" />
+    </state>
+    <state width="1493" height="451" key="GridCell.Tab.0.center/0.0.1536.783@0.0.1536.783" timestamp="1585138235108" />
+    <state width="1493" height="451" key="GridCell.Tab.0.left" timestamp="1585138235107">
+      <screen x="0" y="0" width="1536" height="783" />
+    </state>
+    <state width="1493" height="451" key="GridCell.Tab.0.left/0.0.1536.783@0.0.1536.783" timestamp="1585138235107" />
+    <state width="1493" height="451" key="GridCell.Tab.0.right" timestamp="1585138235108">
+      <screen x="0" y="0" width="1536" height="783" />
+    </state>
+    <state width="1493" height="451" key="GridCell.Tab.0.right/0.0.1536.783@0.0.1536.783" timestamp="1585138235108" />
+    <state width="1493" height="273" key="GridCell.Tab.1.bottom" timestamp="1585118044650">
+      <screen x="0" y="0" width="1536" height="783" />
+    </state>
+    <state width="1493" height="273" key="GridCell.Tab.1.bottom/0.0.1536.783@0.0.1536.783" timestamp="1585118044650" />
+    <state width="1493" height="273" key="GridCell.Tab.1.center" timestamp="1585118044649">
+      <screen x="0" y="0" width="1536" height="783" />
+    </state>
+    <state width="1493" height="273" key="GridCell.Tab.1.center/0.0.1536.783@0.0.1536.783" timestamp="1585118044649" />
+    <state width="1493" height="273" key="GridCell.Tab.1.left" timestamp="1585118044649">
+      <screen x="0" y="0" width="1536" height="783" />
+    </state>
+    <state width="1493" height="273" key="GridCell.Tab.1.left/0.0.1536.783@0.0.1536.783" timestamp="1585118044649" />
+    <state width="1493" height="273" key="GridCell.Tab.1.right" timestamp="1585118044649">
+      <screen x="0" y="0" width="1536" height="783" />
+    </state>
+    <state width="1493" height="273" key="GridCell.Tab.1.right/0.0.1536.783@0.0.1536.783" timestamp="1585118044649" />
+    <state x="178" y="2" key="new project wizard" timestamp="1585129668719">
+      <screen x="0" y="0" width="1536" height="783" />
+    </state>
+    <state x="178" y="2" key="new project wizard/0.0.1536.783@0.0.1536.783" timestamp="1585129668719" />
+  </component>
+</project>
