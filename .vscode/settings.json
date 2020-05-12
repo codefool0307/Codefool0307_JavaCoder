@@ -1,0 +1,15 @@
+{
+    // 文件头部注释
+    "fileheader.customMade": {
+    
+
+        "Author":"孙浩然",
+        "Date": "Do not edit", // 文件创建时间(不变)
+        "LastEditors": "孙浩然", // 文件最后编辑者
+        "LastEditTime": "Do not edit", // 文件最后编辑时间
+        "FilePath": "Do not edit", // 文件在项目中的相对路径 自动更新
+        "博客地址":"个人博客，如果各位客官觉得不错，请点个赞，谢谢。[地址](https://codefool0307.github.io/JavaScholar/#/)"
+    },
+
+        
+}

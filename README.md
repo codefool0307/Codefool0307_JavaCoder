@@ -1,11 +1,14 @@
 <!--
  * @Author: 孙浩然
  * @Date: 2020-04-08 16:14:01
- * @LastEditTime: 2020-05-06 20:51:15
- * @LastEditors: Please set LastEditors
- * @Description: In User Settings Edit
- * @FilePath: \docsd:\04.github\Javastudyer\README.md
+ * @LastEditors: 孙浩然
+ * @LastEditTime: 2020-05-06 21:32:25
+ * @FilePath: \Javastudyer\README.md
+ * @博客地址: 个人博客，如果各位客官觉得不错，请点个赞，谢谢。[地址](https://codefool0307.github.io/JavaScholar/#/)
  -->
+
+
+ 
 # <h1><font style="background: repeating-linear-gradient(red, yellow 10%, green 20%)">Java工程师必备技能</font></h1>
 <div align="center">
     <a href="https://github.com/codefool0307/Javastudyer/blob/master/authorintroducer.md"> <img src="https://badgen.net/badge/%e4%bd%9c%e8%80%85/shr?icon=github&color=4ab8a1"></a>
@@ -22,11 +25,11 @@
 
 <h2>个人相关博客地址</h2>
 
-<h2>掘金<a href="https://juejin.im/user/5eb155ece51d454db20f3677/posts">地址</a></h2><br>
+<h2><a href="https://juejin.im/user/5eb155ece51d454db20f3677/posts">掘金地址</a></h2><br>
 
-<h2>CSDN<a href="https://blog.csdn.net/qq_25252089">地址</a></h2><br>
+<h2><a href="https://blog.csdn.net/qq_25252089">CSDN地址</a></h2><br>
 
-<h2>知乎<a href="https://www.zhihu.com/people/yi-qie-jie-zai-ai-yi-zhong/posts">地址</a></h2><br>
+<h2><a href="https://www.zhihu.com/people/yi-qie-jie-zai-ai-yi-zhong/posts">知乎地址</a></h2><br>
 
 <hr size=10 color=red>
 
