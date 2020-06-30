@@ -2,7 +2,7 @@
  * @Author: 孙浩然
  * @Date: 2020-04-08 16:14:01
  * @LastEditors: 孙浩然
- * @LastEditTime: 2020-06-30 17:21:08
+ * @LastEditTime: 2020-06-30 17:25:18
  * @FilePath: \Java-Pointd:\04.github\Java-Practice\README.md
  * @博客地址: 个人博客，如果各位客官觉得不错，请点个赞，谢谢。[地址](https://codefool0307.github.io/JavaScholar/#/)
  -->
@@ -19,7 +19,7 @@
      
 </div>
 
-<h2>国 内 路线：<a href="https://compu.gitee.io/java-point/#/menu">地址</a></h2><br>
+<h2>国 内 路线：<a href="https://compu.gitee.io/java-point">地址</a></h2><br>
 
 <h2>github路线：<a href="https://codefool0307.github.io/Java-Point/#/">地址</a></h2>
 
