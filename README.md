@@ -2,8 +2,8 @@
  * @Author: 孙浩然
  * @Date: 2020-04-08 16:14:01
  * @LastEditors: 孙浩然
- * @LastEditTime: 2020-05-06 21:32:25
- * @FilePath: \Javastudyer\README.md
+ * @LastEditTime: 2020-06-30 17:21:08
+ * @FilePath: \Java-Pointd:\04.github\Java-Practice\README.md
  * @博客地址: 个人博客，如果各位客官觉得不错，请点个赞，谢谢。[地址](https://codefool0307.github.io/JavaScholar/#/)
  -->
 
@@ -11,15 +11,17 @@
  
 # <h1><font style="background: repeating-linear-gradient(red, yellow 10%, green 20%)">Java工程师必备技能</font></h1>
 <div align="center">
-    <a href="https://github.com/codefool0307/Javastudyer/blob/master/authorintroducer.md"> <img src="https://badgen.net/badge/%e4%bd%9c%e8%80%85/shr?icon=github&color=4ab8a1"></a>
-    <a href=""> <img src="https://badgen.net/badge/%e7%89%88%e6%9c%ac/v1.0.0?icon=telegram&color=4ab8a1"></a>
-    <a href="https://codefool0307.github.io/JavaScholar/#/"> <img src="https://badgen.net/badge/%e9%98%85%e8%af%bb/codefool0307?icon=sourcegraph&color=4ab8a1"></a>
+   <a href="https://codefool0307.github.io/Java-Point/#/./authorintroducer"> <img src="https://badgen.net/badge/%e4%bd%9c%e8%80%85/shr?icon=github&color=4ab8a1"></a>
+    <img src="https://badgen.net/badge/%e7%89%88%e6%9c%ac/v1.0.0?icon=telegram&color=4ab8a1">
+    <a href="https://codefool0307.github.io/Java-Point/#/"> <img src="https://badgen.net/badge/%e9%98%85%e8%af%bb/codefool0307?icon=sourcegraph&color=4ab8a1"></a>
     <a href=""> <img src="https://badgen.net/badge/%e8%af%ad%e8%a8%80/Java?icon=rss&color=4ab8a1"></a>
+    <a href="https://github.com/codefool0307/Java-Practice"> <img src="https://badgen.net/badge/%e7%82%b9%e8%b5%9e/%e5%90%84%e4%bd%8d%e5%a4%a7%e4%bd%ac%e5%a6%82%e6%9e%9c%e8%a7%89%e5%be%97%e5%8f%af%e4%bb%a5%e8%af%b7%e7%82%b9%e4%b8%aa%e8%b5%9e?icon=patreon&color=4ab8a1"></a>
+     
 </div>
 
-<h2>国 内 路线：<a href="https://compu.gitee.io/demo-java/#/">地址</a></h2><br>
+<h2>国 内 路线：<a href="https://compu.gitee.io/java-point/#/menu">地址</a></h2><br>
 
-<h2>github路线：<a href="https://codefool0307.github.io/JavaScholar/#/">地址</a></h2>
+<h2>github路线：<a href="https://codefool0307.github.io/Java-Point/#/">地址</a></h2>
 
 <hr size="5px" >
 
