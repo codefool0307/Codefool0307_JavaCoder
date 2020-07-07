@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<project version="4">
-  <component name="ProjectModuleManager">
-    <modules>
-      <module fileurl="file://$PROJECT_DIR$/Demo20040303SpringMVC05_output.iml" filepath="$PROJECT_DIR$/Demo20040303SpringMVC05_output.iml" />
-      <module fileurl="file://$PROJECT_DIR$/../Demo20040401SpringMVC06_viewResolver/Demo20040401SpringMVC06_viewResolver.iml" filepath="$PROJECT_DIR$/../Demo20040401SpringMVC06_viewResolver/Demo20040401SpringMVC06_viewResolver.iml" />
-    </modules>
-  </component>
-</project>

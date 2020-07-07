@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<project version="4">
-  <component name="ProjectModuleManager">
-    <modules>
-      <module fileurl="file://$PROJECT_DIR$/Demo20041402Proxy01_staticProxy.iml" filepath="$PROJECT_DIR$/Demo20041402Proxy01_staticProxy.iml" />
-      <module fileurl="file://$PROJECT_DIR$/../Demo20041402Proxy02_proxy01/Demo20041402Proxy02_proxy01.iml" filepath="$PROJECT_DIR$/../Demo20041402Proxy02_proxy01/Demo20041402Proxy02_proxy01.iml" />
-    </modules>
-  </component>
-</project>
