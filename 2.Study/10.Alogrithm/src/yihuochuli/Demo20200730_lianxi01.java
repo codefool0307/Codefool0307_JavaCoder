@@ -1,3 +1,5 @@
+package yihuochuli;
+
 import javax.lang.model.element.NestingKind;
 import java.util.HashMap;
 import java.util.Scanner;
