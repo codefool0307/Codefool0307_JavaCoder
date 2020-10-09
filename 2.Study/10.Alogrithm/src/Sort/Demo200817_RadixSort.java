@@ -1,14 +1,28 @@
 package Sort;
 
 import java.util.Arrays;
+import java.util.HashMap;
+import java.util.Scanner;
 
 public class Demo200817_RadixSort {
     public static void main(String[] args) {
+        new Scanner()
+        HashMap<Integer, Integer> next = new HashMap<>();
         int[] arr = {22,21,32,31,1,100};
         //System.out.println(maxbits(arr));
         System.out.println(Arrays.toString(arr));
         sort(arr);
         System.out.println(Arrays.toString(arr));
+        for (int i = n-1; i >=0 ; i--) {
+            if (dp.containsKey(next.get(nums[i]))){
+                dp.put(nums[i],dp.get(nums[i])+1);
+            }
+            else{
+                dp.put(nums[i],1);
+            }
+            maxlen=Math.max(maxlen,dp.get(nums[i]));
+        }
+        return n-maxlen;
     }
 
     public static void sort(int[] arr){
